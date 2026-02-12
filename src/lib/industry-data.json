@@ -1,0 +1,24 @@
+{
+    "industries": {
+        "default": {
+            "ai_risk_factor": 0.5,
+            "avg_monthly_rev": 20000
+        },
+        "medispa": {
+            "ai_risk_factor": 0.3,
+            "avg_monthly_rev": 35000
+        },
+        "dental": {
+            "ai_risk_factor": 0.4,
+            "avg_monthly_rev": 45000
+        },
+        "legal": {
+            "ai_risk_factor": 0.8,
+            "avg_monthly_rev": 50000
+        },
+        "realestate": {
+            "ai_risk_factor": 0.6,
+            "avg_monthly_rev": 30000
+        }
+    }
+}
