@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { calculateResilienceScore, AuditData, AuditResult } from '@/lib/scoring-engine';
@@ -7,7 +8,7 @@ import MermaidChart from '@/components/MermaidChart';
 import Roadmap from '@/components/Roadmap';
 import Link from 'next/link';
 
-export default function AuditPage() {
+function AuditContent() {
     const searchParams = useSearchParams();
     const query = searchParams.get('q');
     const [auditResult, setAuditResult] = useState<AuditResult | null>(null);
@@ -134,5 +135,18 @@ export default function AuditPage() {
                 </div>
             </div>
         </div>
+    );
+}
+
+export default function AuditPage() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen flex flex-col items-center justify-center bg-[#0b0b0b] text-white space-y-4">
+                <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+                <p className="text-xl animate-pulse">Loading Audit...</p>
+            </div>
+        }>
+            <AuditContent />
+        </Suspense>
     );
 }
