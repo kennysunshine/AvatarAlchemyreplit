@@ -4,14 +4,7 @@ import { ArrowRight, ExternalLink } from 'lucide-react';
 import Image from 'next/image';
 
 const portfolioData: Record<string, { label: string; title: string; images: { src: string; alt: string }[]; video?: string; vimeo?: string }> = {
-    "EHC Sports": {
-        label: "Supplements",
-        title: "EHC Sport Shilajit",
-        images: [
-            { src: "https://avatar-alchemyai.replit.app/assets/Screenshot_2026-01-19_at_13.53.08_1768830796313-tZWoxg-0.png", alt: "EHC Sport Product" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Maximum_Efficacy_Guaranteed_version_1_1768829041108-xbco9tao.png", alt: "Maximum Efficacy Guaranteed" },
-        ],
-    },
+    // EHC Sports removed due to low resolution assets
     "Glastonbury Wellness": {
         label: "Wellness",
         title: "Glastonbury Wellness Centre",
@@ -57,6 +50,7 @@ const categories = Object.keys(portfolioData);
 
 export function Portfolio() {
     const [activeTab, setActiveTab] = useState(categories[0]);
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
     const data = portfolioData[activeTab];
 
     return (
@@ -83,16 +77,23 @@ export function Portfolio() {
                     ))}
                 </div>
 
-                {/* Portfolio Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                {/* Portfolio Grid - Changed to Flex for centering/symmetry */}
+                <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
                     {data.images.map((img, idx) => (
-                        <div key={idx} className="bg-[#0F1115] rounded-2xl overflow-hidden border border-white/5 shadow-2xl group hover:-translate-y-2 transition-transform duration-500">
-                            <div className="aspect-square relative overflow-hidden">
+                        <div
+                            key={idx}
+                            onClick={() => setSelectedImage(img.src)}
+                            className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-[#0F1115] rounded-2xl overflow-hidden border border-white/5 shadow-2xl group hover:-translate-y-2 transition-transform duration-500 cursor-pointer"
+                        >
+                            <div className="aspect-square relative overflow-hidden bg-black/50">
                                 <img
                                     src={img.src}
                                     alt={img.alt}
-                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                                 />
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
+                                    <span className="bg-black/70 text-white text-xs px-3 py-1 rounded-full backdrop-blur-sm">View Full Size</span>
+                                </div>
                             </div>
                             <div className="p-4 text-left">
                                 <span className="text-xs text-gray-500 uppercase tracking-widest mb-1 block">{data.label}</span>
@@ -103,10 +104,10 @@ export function Portfolio() {
 
                     {/* Video card if exists */}
                     {data.video && (
-                        <div className="bg-[#0F1115] rounded-2xl overflow-hidden border border-white/5 shadow-2xl group hover:-translate-y-2 transition-transform duration-500">
-                            <div className="aspect-square relative overflow-hidden">
+                        <div className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-[#0F1115] rounded-2xl overflow-hidden border border-white/5 shadow-2xl group hover:-translate-y-2 transition-transform duration-500">
+                            <div className="aspect-square relative overflow-hidden bg-black">
                                 <video
-                                    className="w-full h-full object-cover"
+                                    className="w-full h-full object-contain"
                                     controls
                                     muted
                                 >
@@ -136,6 +137,27 @@ export function Portfolio() {
                 )}
 
             </div>
+
+            {/* Lightbox Modal */}
+            {selectedImage && (
+                <div
+                    className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-xl flex items-center justify-center p-4 md:p-10"
+                    onClick={() => setSelectedImage(null)}
+                >
+                    <button
+                        onClick={() => setSelectedImage(null)}
+                        className="absolute top-6 right-6 text-white/50 hover:text-white transition-colors"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                    <img
+                        src={selectedImage}
+                        alt="Full View"
+                        className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+                        onClick={(e) => e.stopPropagation()} // Prevent closing when clicking the image itself
+                    />
+                </div>
+            )}
         </section>
     );
 }

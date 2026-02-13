@@ -10,19 +10,19 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                background: "#050609", // Deep dark background
+                background: "#0B1120", // Deep Blue-Black
                 foreground: "#ffffff",
                 primary: {
-                    DEFAULT: "#00E5FF", // Electric Cyan
-                    hover: "#00B8CC",
+                    DEFAULT: "#3B82F6", // Vivid Blue
+                    hover: "#2563EB",
                 },
                 secondary: {
-                    DEFAULT: "#9D4EDD", // Deep Purple
-                    hover: "#7B2CBF",
+                    DEFAULT: "#60A5FA", // Sky Blue
+                    hover: "#93C5FD",
                 },
                 surface: {
-                    DEFAULT: "#0F1115", // Card background
-                    hover: "#1A1D23",
+                    DEFAULT: "#111827", // Dark Blue-Grey Surface
+                    hover: "#1F2937",
                     border: "rgba(255, 255, 255, 0.1)",
                 },
             },

@@ -51,7 +51,6 @@ export function VideoSection() {
                         <video
                             key={playlist[activeIdx].src}
                             controls
-                            autoPlay
                             className="w-full h-full object-cover"
                         >
                             <source src={playlist[activeIdx].src} type="video/mp4" />

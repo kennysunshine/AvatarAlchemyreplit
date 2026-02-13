@@ -20,13 +20,13 @@ export function Navbar() {
                     <Link href="#pricing" className="hover:text-primary transition-colors">Pricing</Link>
                     <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
                     <Link href="#blog" className="hover:text-primary transition-colors">Blog</Link>
-                    <Link href="/audit" className="hover:text-white transition-colors">Free Visibility Audit</Link>
+                    <Link href="/book" className="hover:text-white transition-colors">Free Visibility Audit</Link>
                 </div>
 
                 {/* CTA */}
                 <Link
-                    href="/audit"
-                    className="bg-primary hover:bg-primary-hover text-black font-semibold text-sm px-6 py-2.5 rounded-full transition-all shadow-[0_0_20px_-5px_rgba(0,229,255,0.4)]"
+                    href="/book"
+                    className="bg-primary hover:bg-primary-hover text-black font-semibold text-sm px-6 py-2.5 rounded-full transition-all shadow-[0_0_20px_-5px_rgba(59,130,246,0.6)]"
                 >
                     Book Premium Audit
                 </Link>
