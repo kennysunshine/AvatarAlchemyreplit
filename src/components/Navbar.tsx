@@ -20,7 +20,7 @@ export function Navbar() {
                     <Link href="#pricing" className="hover:text-primary transition-colors">Pricing</Link>
                     <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
                     <Link href="#blog" className="hover:text-primary transition-colors">Blog</Link>
-                    <a href="https://rogue-prominence.vercel.app" className="hover:text-white transition-colors">Free Visibility Audit</a>
+                    <a href="https://audit.avatar-alchemy.com" className="hover:text-white transition-colors">Free Visibility Audit</a>
                 </div>
 
                 {/* CTA */}
