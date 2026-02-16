@@ -30,12 +30,12 @@ export function Hero() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-4 mb-20 relative z-10 animate-fade-in-up delay-300">
-                <Link
-                    href="/book"
+                <a
+                    href="https://audit.avatar-alchemy.com"
                     className="flex items-center gap-2 bg-primary hover:bg-primary-hover text-black font-semibold px-8 py-3.5 rounded-md transition-all shadow-lg shadow-primary/20"
                 >
                     Book Premium Audit
-                </Link>
+                </a>
                 <button className="flex items-center gap-2 px-8 py-3.5 rounded-md text-white border border-white/10 hover:bg-white/5 transition-all group">
                     <MoveDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
                     Learn More

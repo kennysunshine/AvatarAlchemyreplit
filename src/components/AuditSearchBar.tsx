@@ -11,8 +11,8 @@ export const AuditSearchBar = () => {
     const handleSearch = (e: React.FormEvent) => {
         e.preventDefault();
         if (query.trim()) {
-            // Navigate to the audit page with the query
-            router.push(`/audit?q=${encodeURIComponent(query)}`);
+            // Redirect to external Audit App
+            window.location.href = `https://audit.avatar-alchemy.com/audit?address=${encodeURIComponent(query)}`;
         }
     };
 

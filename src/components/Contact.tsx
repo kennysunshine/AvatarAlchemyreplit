@@ -65,7 +65,7 @@ export function Contact() {
                             <div>
                                 <h3 className="font-bold mb-1">Book Premium Audit</h3>
                                 <p className="text-xs text-gray-500 mb-2">Get an expert assessment of your AI search visibility</p>
-                                <a href="#" className="text-secondary text-sm font-medium hover:underline flex items-center gap-1">
+                                <a href="https://audit.avatar-alchemy.com" className="text-secondary text-sm font-medium hover:underline flex items-center gap-1">
                                     Click to schedule →
                                 </a>
                             </div>

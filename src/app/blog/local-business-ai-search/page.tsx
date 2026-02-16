@@ -121,9 +121,9 @@ export default function BlogPost() {
                         </ol>
                         <div className="mt-8 pt-8 border-t border-white/5">
                             <p className="text-lg font-medium text-white mb-4">Want to know exactly where you stand in AI search?</p>
-                            <Link href="/audit" className="inline-block bg-primary hover:bg-primary-hover text-black font-bold px-8 py-3 rounded-lg transition-colors">
+                            <a href="https://audit.avatar-alchemy.com" className="inline-block bg-primary hover:bg-primary-hover text-black font-bold px-8 py-3 rounded-lg transition-colors">
                                 Book a free Local AI Discovery Audit
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
