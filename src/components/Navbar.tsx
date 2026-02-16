@@ -25,7 +25,7 @@ export function Navbar() {
 
                 {/* CTA */}
                 <a
-                    href="https://audit.avatar-alchemy.com"
+                    href="/book"
                     className="bg-primary hover:bg-primary-hover text-black font-semibold text-sm px-6 py-2.5 rounded-full transition-all shadow-[0_0_20px_-5px_rgba(59,130,246,0.6)]"
                 >
                     Book Premium Audit
