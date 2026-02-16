@@ -15,11 +15,11 @@ export function Navbar() {
 
                 {/* Links */}
                 <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
-                    <Link href="#problem" className="hover:text-primary transition-colors">The Problem</Link>
-                    <Link href="#solutions" className="hover:text-primary transition-colors">Solutions</Link>
-                    <Link href="#pricing" className="hover:text-primary transition-colors">Pricing</Link>
-                    <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
-                    <Link href="#blog" className="hover:text-primary transition-colors">Blog</Link>
+                    <Link href="/#problem" className="hover:text-primary transition-colors">The Problem</Link>
+                    <Link href="/#solutions" className="hover:text-primary transition-colors">Solutions</Link>
+                    <Link href="/#pricing" className="hover:text-primary transition-colors">Pricing</Link>
+                    <Link href="/#contact" className="hover:text-primary transition-colors">Contact</Link>
+                    <Link href="/#blog" className="hover:text-primary transition-colors">Blog</Link>
                     <a href="https://audit.avatar-alchemy.com" className="hover:text-white transition-colors">Free Visibility Audit</a>
                 </div>
 
