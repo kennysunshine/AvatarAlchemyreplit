@@ -6,7 +6,7 @@ export function Navbar() {
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 {/* Logo Area */}
                 <div className="flex items-center gap-3">
-                    <img src="https://avatar-alchemyai.replit.app/assets/Untitled%20design_1762908460861-C0keZlfZ.png" alt="Avatar Alchemy AI Logo" className="w-10 h-10 rounded-full object-cover" />
+                    <img src="/brand-logo.png" alt="Avatar Alchemy AI Logo" className="w-10 h-10 rounded-full object-cover" />
                     <div className="flex flex-col leading-tight">
                         <span className="font-bold text-lg tracking-tight">Avatar Alchemy AI</span>
                         <span className="text-[10px] text-gray-400 font-medium">Get Found. Get Seen. Scale.</span>
