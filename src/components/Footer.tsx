@@ -8,7 +8,6 @@ export function Footer() {
                 {/* Brand */}
                 <div className="md:col-span-2">
                     <div className="flex items-center gap-3 mb-6">
-                        <img src="https://avatar-alchemyai.replit.app/assets/Untitled%20design_1762908460861-C0keZlfZ.png" alt="Avatar Alchemy AI Logo" className="w-8 h-8 rounded-full object-cover" />
                         <span className="font-bold text-lg tracking-tight">Avatar Alchemy AI</span>
                     </div>
                     <p className="text-gray-400 max-w-sm leading-relaxed">
@@ -55,6 +54,6 @@ export function Footer() {
                     <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
                 </div>
             </div>
-        </footer>
+        </footer >
     );
 }
