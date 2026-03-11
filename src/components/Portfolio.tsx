@@ -9,38 +9,37 @@ const portfolioData: Record<string, { label: string; title: string; images: { sr
         label: "Wellness",
         title: "Glastonbury Wellness Centre",
         images: [
-            { src: "https://avatar-alchemyai.replit.app/assets/Too_Many_Paths_to_Choose__version_1_1768829194664-C0A5FcTy.png", alt: "Too Many Paths to Choose" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Your_Path_to_Peace__Resourced__version_1_1768829194664-DJwU8hEk.png", alt: "Your Path to Peace" },
+            { src: "/portfolio/too-many-paths.png", alt: "Too Many Paths to Choose" },
+            { src: "/portfolio/your-path-to-peace.png", alt: "Your Path to Peace" },
         ],
-        video: "https://avatar-alchemyai.replit.app/assets/Seeking_Guidance_in_Glastonbury__version_1_1768829194664-CuhcBK_z.mp4"
     },
     "Biochi": {
         label: "Supplements",
         title: "Biochi Natural Supplements",
         images: [
-            { src: "https://avatar-alchemyai.replit.app/assets/Nature-Sourced_Power_version_1_1768848502687-LbAM2nBW.png", alt: "Nature-Sourced Power" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Overwhelmed_by_Supplements__version_1_1768848502689-DgbxlpBD.png", alt: "Overwhelmed by Supplements" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Treasure_1__Oceanic_Energy__version_1_1768848502691-Dd1c_OqK.png", alt: "Treasure 1: Oceanic Energy" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Treasure_2__Earthly_Power__version_1_1768848502690-WsfOVJbz.png", alt: "Treasure 2: Earthly Power" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Treasure_3__Botanical_Balance__version_1_1768848502690-CLxDHimA.png", alt: "Treasure 3: Botanical Balance" },
-            { src: "https://avatar-alchemyai.replit.app/assets/The_Core_3_System_version_1_1768848502691-CHqRdMk3.png", alt: "The Core 3 System" },
+            { src: "https://www.avatar-alchemy.com/assets/Nature-Sourced_Power_version_1_1768848502687-LbAM2nBW.png", alt: "Nature-Sourced Power" },
+            { src: "https://www.avatar-alchemy.com/assets/Overwhelmed_by_Supplements__version_1_1768848502689-DgbxlpBD.png", alt: "Overwhelmed by Supplements" },
+            { src: "https://www.avatar-alchemy.com/assets/Treasure_1__Oceanic_Energy__version_1_1768848502691-Dd1c_OqK.png", alt: "Treasure 1: Oceanic Energy" },
+            { src: "https://www.avatar-alchemy.com/assets/Treasure_2__Earthly_Power__version_1_1768848502690-WsfOVJbz.png", alt: "Treasure 2: Earthly Power" },
+            { src: "https://www.avatar-alchemy.com/assets/Treasure_3__Botanical_Balance__version_1_1768848502690-CLxDHimA.png", alt: "Treasure 3: Botanical Balance" },
+            { src: "https://www.avatar-alchemy.com/assets/The_Core_3_System_version_1_1768848502691-CHqRdMk3.png", alt: "The Core 3 System" },
         ],
     },
     "British Chelonia Group": {
         label: "Conservation",
         title: "British Chelonia Group",
         images: [
-            { src: "https://avatar-alchemyai.replit.app/assets/50_Million_Years_of_Survival_version_1_1768829321062-CC54o_lU.png", alt: "50 Million Years of Survival" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Ancient_Legacies_Need_Your_Help_version_1_1768829321069-Fqf0lg_0.png", alt: "Ancient Legacies Need Your Help" },
-            { src: "https://avatar-alchemyai.replit.app/assets/Protecting_Chelonia_for_Generations_version_1_1768829321070-ChgJZnCV.png", alt: "Protecting Chelonia for Generations" },
+            { src: "https://www.avatar-alchemy.com/assets/50_Million_Years_of_Survival_version_1_1768829321062-CC54o_lU.png", alt: "50 Million Years of Survival" },
+            { src: "https://www.avatar-alchemy.com/assets/Ancient_Legacies_Need_Your_Help_version_1_1768829321069-Fqf0lg_0.png", alt: "Ancient Legacies Need Your Help" },
+            { src: "https://www.avatar-alchemy.com/assets/Protecting_Chelonia_for_Generations_version_1_1768829321070-ChgJZnCV.png", alt: "Protecting Chelonia for Generations" },
         ],
     },
     "Pet Info Club": {
         label: "Pets & History",
         title: "Pet Info Club / Museum",
         images: [
-            { src: "https://avatar-alchemyai.replit.app/assets/logo_cali_1768830155882-DcuDmhE7.png", alt: "Museum of Aquarium & Pet History" },
-            { src: "https://avatar-alchemyai.replit.app/assets/ChatGPT_Image_Jul_28__2025__04_03_36_PM_1758720677527_1768830242340-Bhy2Nu6D.png", alt: "PetInfoClub.com" },
+            { src: "https://www.avatar-alchemy.com/assets/logo_cali_1768830155882-DcuDmhE7.png", alt: "Museum of Aquarium & Pet History" },
+            { src: "https://www.avatar-alchemy.com/assets/ChatGPT_Image_Jul_28__2025__04_03_36_PM_1758720677527_1768830242340-Bhy2Nu6D.png", alt: "PetInfoClub.com" },
         ],
         vimeo: "https://vimeo.com/1131463466"
     },
@@ -109,6 +108,7 @@ export function Portfolio() {
                                 <video
                                     className="w-full h-full object-contain"
                                     controls
+                                    playsInline
                                     muted
                                 >
                                     <source src={data.video} type="video/mp4" />

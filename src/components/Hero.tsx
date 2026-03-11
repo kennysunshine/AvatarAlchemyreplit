@@ -3,7 +3,7 @@ import { ArrowRight, MoveDown } from 'lucide-react';
 
 export function Hero() {
     return (
-        <section className="relative pt-32 pb-20 overflow-hidden flex flex-col items-center text-center px-4">
+        <section className="relative pt-24 pb-16 md:pt-32 md:pb-20 overflow-hidden flex flex-col items-center text-center px-4">
 
             {/* Background Glow */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[500px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
@@ -18,7 +18,7 @@ export function Hero() {
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-5xl md:text-7xl font-bold font-heading tracking-tight mb-6 max-w-4xl relative z-10 animate-fade-in-up delay-100">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold font-heading tracking-tight mb-6 max-w-4xl relative z-10 animate-fade-in-up delay-100">
                 Stop Guessing. <br />
                 <span className="text-gradient-primary">Start Trending.</span>
             </h1>

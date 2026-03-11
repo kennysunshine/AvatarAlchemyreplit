@@ -9,7 +9,7 @@ export function VideoSection() {
             title: "The AI Marketing Shift",
             duration: "0:28",
             desc: "Why the battle has moved from Google to the AI Knowledge Graph",
-            src: "https://avatar-alchemyai.replit.app/assets/The_AI_Marketing_Shift_1769365011400-Dcy-2D59.mp4"
+            src: "/videos/the-ai-marketing-shift.mp4"
         },
         {
             active: false,
@@ -23,7 +23,7 @@ export function VideoSection() {
             title: "Your Opportunity",
             duration: "0:45",
             desc: "How to claim your share of voice before it's too late",
-            src: "https://avatar-alchemyai.replit.app/assets/AI_Audit_Opportunity_1769365011398-B1juu1LY.mp4"
+            src: "/videos/ai-audit-opportunity.mp4"
         }
     ];
 
@@ -51,6 +51,8 @@ export function VideoSection() {
                         <video
                             key={playlist[activeIdx].src}
                             controls
+                            playsInline
+                            muted
                             className="w-full h-full object-cover"
                         >
                             <source src={playlist[activeIdx].src} type="video/mp4" />

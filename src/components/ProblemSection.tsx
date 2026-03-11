@@ -35,7 +35,7 @@ export function ProblemSection() {
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {cards.map((card, idx) => (
-                        <div key={idx} className="glass-panel p-10 rounded-2xl border border-white/5 hover:border-white/10 transition-colors group">
+                        <div key={idx} className="glass-panel p-6 sm:p-10 rounded-2xl border border-white/5 hover:border-white/10 transition-colors group">
                             <div className={`w-14 h-14 rounded-full ${card.bg} ${card.color} flex items-center justify-center mb-8 mx-auto group-hover:scale-110 transition-transform`}>
                                 <card.icon className="w-7 h-7" />
                             </div>
