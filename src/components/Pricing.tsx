@@ -1,126 +1,167 @@
-import { Check, Info } from 'lucide-react';
+import { Check, Info, Minus } from 'lucide-react';
 
 export function Pricing() {
     const tiers = [
         {
-            name: "The Hook",
+            name: "Tier 1",
             title: "Entity Signal Protocol",
             subtitle: "Make the Machines See You",
-            price: "395",
+            price: "595",
             commitment: "30-Day Rolling",
             description: "We verify your existence across the core data sources that AI models trust.",
             features: [
-                "Core Knowledge Graph Validation",
-                "Google Business Profile 'AI Sync'",
-                "Foundational 'Zero-Click' Citations",
-                "Quarterly 'AI Visibility' Report"
+                "Knowledge Graph Validation",
+                "GBP Sync (AI Optimized)",
+                "Zero-Click Citations",
+                "Quarterly AI Visibility Report"
             ],
             highlight: false,
             cta: "Activate Signal"
         },
         {
-            name: "The Core",
+            name: "Tier 2",
             title: "Authority Vector System",
-            subtitle: "Teach AI to Prefer You",
-            price: "850",
+            subtitle: "The Core: Teach AI to Prefer You",
+            price: "1,250",
             commitment: "3-Month Commitment",
             description: "Displace competitors by injecting your brand into specific answer engine queries.",
             features: [
-                "Everything in Entity Signal, plus:",
-                "Competitor Gap Analysis & Displacement",
-                "Monthly 'Answer Engine' FAQ Injection (x4)",
-                "Review Sentiment 'Training'"
+                "Everything in Tier 1, plus:",
+                "Competitor Displacement",
+                "Monthly FAQ Injections",
+                "Sentiment Training"
             ],
             highlight: true,
             cta: "Start Displacement"
         },
         {
-            name: "The Ceiling",
+            name: "Tier 3",
             title: "Omnipresence Ecosystem",
-            subtitle: "Own the Entire Conversation",
-            price: "1,495",
+            subtitle: "The Ceiling: Own the Entire Conversation",
+            price: "2,495",
             commitment: "3-Month Commitment",
             description: "Full multi-modal dominance across text, voice, and visual search.",
             features: [
-                "Everything in Authority Vector, plus:",
-                "Multi-Modal Optimization (Visual/Video)",
-                "'Founder-Led' Strategy Looms (Monthly)",
-                "External Signal Amplification (PR/Guest Posts)"
+                "Everything in Tier 2, plus:",
+                "Multi-Modal Optimization",
+                "Founder-Led Strategy",
+                "External Signal Amplification"
             ],
             highlight: false,
-            cta: "Dominate Market"
+            cta: "Contact for Omnipresence"
         }
     ];
 
-    return (
-        <section id="pricing" className="py-24 px-6 bg-[#050609]">
-            <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold mb-4 text-white">Frictionless AI Dominance</h2>
-                    <p className="text-gray-400">No setup fees. No fluff. Just pure signal amplification.</p>
+    const comparisonData = [
+        { item: "Knowledge Graph Validation", t1: true, t2: true, t3: true },
+        { item: "GBP Sync (AI Optimized)", t1: true, t2: true, t3: true },
+        { item: "Zero-Click Citations", t1: true, t2: true, t3: true },
+        { item: "Quarterly Visibility Report", t1: true, t2: true, t3: true },
+        { item: "Competitor Displacement", t1: false, t2: true, t3: true },
+        { item: "Monthly FAQ Injections", t1: false, t2: true, t3: true },
+        { item: "Sentiment Training", t1: false, t2: true, t3: true },
+        { item: "Multi-Modal Optimization", t1: false, t2: false, t3: true },
+        { item: "Founder-Led Strategy", t1: false, t2: false, t3: true },
+        { item: "Signal Amplification", t1: false, t2: false, t3: true },
+    ];
 
-                    {/* Toggle */}
-                    <div className="flex items-center justify-center gap-4 mt-8">
-                        <span className="text-sm font-medium text-white">UK</span>
-                        <div className="w-12 h-6 bg-primary rounded-full relative cursor-pointer">
-                            <div className="absolute right-1 top-1 w-4 h-4 bg-[#050609] rounded-full shadow-sm" />
-                        </div>
-                        <span className="text-sm font-medium text-gray-500">Global</span>
-                    </div>
+    return (
+        <section id="pricing" className="py-32 px-6 bg-[#050609]">
+            <div className="max-w-7xl mx-auto">
+                <div className="text-center mb-24">
+                    <h2 className="text-4xl md:text-5xl font-light mb-6 text-white tracking-tight">Frictionless AI Dominance</h2>
+                    <p className="text-lg text-gray-400 font-light max-w-2xl mx-auto">
+                        No setup fees. No complexity. Just pure signal amplification for the AI era.
+                    </p>
                 </div>
 
-                <div className="grid lg:grid-cols-3 gap-8">
+                <div className="grid lg:grid-cols-3 gap-12 mb-32">
                     {tiers.map((tier, idx) => (
                         <div
                             key={idx}
-                            className={`relative rounded-3xl p-8 border hover:border-primary/50 transition-colors duration-300 ${tier.highlight
-                                ? 'bg-[#0b0c10] border-primary shadow-[0_0_40px_-10px_rgba(0,229,255,0.15)] ring-1 ring-primary/20'
-                                : 'bg-[#0F1115] border-white/5'
+                            className={`relative rounded-2xl p-10 border transition-all duration-500 ${tier.highlight
+                                ? 'bg-[#0b0c10] border-primary/40 shadow-[0_0_50px_-12px_rgba(0,229,255,0.1)]'
+                                : 'bg-transparent border-white/10 hover:border-white/20'
                                 }`}
                         >
                             {tier.highlight && (
-                                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-black text-xs font-bold px-4 py-1.5 rounded-full">
+                                <div className="absolute -top-4 left-10 bg-primary text-black text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
                                     Most Popular
                                 </div>
                             )}
 
-                            <div className="mb-8">
-                                <div className="flex items-center justify-between mb-4">
-                                    <span className="text-xs font-bold text-gray-500 uppercase tracking-widest">{tier.name}</span>
-                                    {tier.highlight && <span className="text-primary text-xl">↗</span>}
-                                </div>
-                                <h3 className="text-xl font-bold mb-1 text-white">{tier.title}</h3>
-                                <p className="text-sm text-gray-400 font-medium mb-6">{tier.subtitle}</p>
+                            <div className="mb-10">
+                                <div className="text-[10px] font-bold text-gray-500 uppercase tracking-[0.2em] mb-4">{tier.name}</div>
+                                <h3 className="text-2xl font-light mb-2 text-white">{tier.title}</h3>
+                                <p className="text-sm text-gray-400 font-light mb-8 italic">{tier.subtitle}</p>
 
                                 <div className="flex items-baseline gap-1 mb-2">
-                                    <span className={`text-4xl font-bold ${tier.highlight ? 'text-primary' : 'text-white'}`}>£{tier.price}</span>
-                                    <span className="text-gray-500">/month</span>
+                                    <span className={`text-5xl font-extralight ${tier.highlight ? 'text-primary' : 'text-white'}`}>£{tier.price}</span>
+                                    <span className="text-gray-500 text-sm">/mo</span>
                                 </div>
-                                <div className="text-xs text-primary mb-6 font-medium bg-primary/10 inline-block px-2 py-1 rounded">
+                                <div className="text-[10px] text-gray-500 font-medium uppercase tracking-widest mb-8">
                                     {tier.commitment}
                                 </div>
-                                <p className="text-sm text-gray-400 mb-6 min-h-[40px]">{tier.description}</p>
+                                <p className="text-sm text-gray-400 font-light leading-relaxed">{tier.description}</p>
                             </div>
 
-                            <ul className="space-y-4 mb-8">
+                            <ul className="space-y-4 mb-10">
                                 {tier.features.map((feat, i) => (
-                                    <li key={i} className="flex items-start gap-3 text-sm text-gray-300">
-                                        <Check className={`w-4 h-4 flex-shrink-0 mt-0.5 ${tier.highlight ? 'text-primary' : 'text-gray-500'}`} />
-                                        <span className="text-xs">{feat}</span>
+                                    <li key={i} className="flex items-center gap-3 text-sm text-gray-300 font-light">
+                                        <Check className={`w-3.5 h-3.5 flex-shrink-0 ${tier.highlight ? 'text-primary' : 'text-gray-600'}`} />
+                                        <span>{feat}</span>
                                     </li>
                                 ))}
                             </ul>
 
-                            <button className={`w-full py-3 rounded-lg font-bold text-sm transition-all ${tier.highlight
-                                ? 'bg-primary hover:bg-primary-hover text-black'
-                                : 'bg-white/10 hover:bg-white/20 text-white'
+                            <button className={`w-full py-4 rounded-xl font-medium text-sm transition-all duration-300 ${tier.highlight
+                                ? 'bg-primary hover:bg-primary-hover text-black shadow-lg shadow-primary/20'
+                                : 'bg-white/5 hover:bg-white/10 text-white border border-white/10'
                                 }`}>
                                 {tier.cta}
                             </button>
                         </div>
                     ))}
                 </div>
+
+                {/* Comparison Table */}
+                <div className="max-w-5xl mx-auto border-t border-white/5 pt-24">
+                    <div className="text-center mb-16">
+                        <h3 className="text-2xl font-light text-white mb-4">Compare Deliverables</h3>
+                        <p className="text-sm text-gray-500">A detailed breakdown of what's included in each protocol.</p>
+                    </div>
+
+                    <div className="overflow-x-auto">
+                        <table className="w-full text-left border-collapse">
+                            <thead>
+                                <tr className="border-b border-white/10">
+                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest">Deliverable</th>
+                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Protocol 1</th>
+                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Protocol 2</th>
+                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Protocol 3</th>
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y divide-white/5">
+                                {comparisonData.map((row, i) => (
+                                    <tr key={i} className="group hover:bg-white/[0.02] transition-colors">
+                                        <td className="py-5 px-4 text-sm text-gray-300 font-light">{row.item}</td>
+                                        <td className="py-5 px-4 text-center">
+                                            {row.t1 ? <Check className="w-4 h-4 mx-auto text-primary/60" /> : <Minus className="w-4 h-4 mx-auto text-gray-700" />}
+                                        </td>
+                                        <td className="py-5 px-4 text-center">
+                                            {row.t2 ? <Check className="w-4 h-4 mx-auto text-primary/60" /> : <Minus className="w-4 h-4 mx-auto text-gray-700" />}
+                                        </td>
+                                        <td className="py-5 px-4 text-center">
+                                            {row.t3 ? <Check className="w-4 h-4 mx-auto text-primary/60" /> : <Minus className="w-4 h-4 mx-auto text-gray-700" />}
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </section>
     );
 }
+
