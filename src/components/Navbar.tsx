@@ -9,11 +9,11 @@ export function Navbar() {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     const navLinks = [
-        { href: "/#problem", label: "The Problem" },
-        { href: "/#solutions", label: "Solutions" },
-        { href: "/#pricing", label: "Pricing" },
-        { href: "/#contact", label: "Contact" },
-        { href: "/#blog", label: "Blog" },
+        { href: "https://avatar-alchemy.com/#problem", label: "The Problem" },
+        { href: "https://avatar-alchemy.com/#solutions", label: "Solutions" },
+        { href: "https://avatar-alchemy.com/#pricing", label: "Pricing" },
+        { href: "https://avatar-alchemy.com/#contact", label: "Contact" },
+        { href: "https://avatar-alchemy.com/#blog", label: "Blog" },
     ];
 
     return (
