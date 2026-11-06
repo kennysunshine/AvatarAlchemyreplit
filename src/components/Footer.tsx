@@ -8,7 +8,7 @@ export function Footer() {
                 {/* Brand */}
                 <div className="md:col-span-2">
                     <div className="flex items-center gap-3 mb-6">
-                        <span className="font-bold text-lg tracking-tight">Avatar Alchemy AI</span>
+                        <span className="font-bold text-lg tracking-tight">Avatar Alchemy</span>
                     </div>
                     <p className="text-gray-400 max-w-sm leading-relaxed">
                         Get Found. Get Seen. Scale. We help local businesses dominate AI search engines and automate social media with Digital Twins.
@@ -19,11 +19,11 @@ export function Footer() {
                 <div>
                     <h4 className="font-bold mb-6 text-white">Quick Links</h4>
                     <ul className="space-y-4 text-gray-400">
-                        <li><a href="#problem" className="hover:text-primary transition-colors">The Problem</a></li>
-                        <li><a href="#solutions" className="hover:text-primary transition-colors">Solutions</a></li>
-                        <li><a href="#pricing" className="hover:text-primary transition-colors">Pricing</a></li>
-                        <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
-                        <li><a href="#blog" className="hover:text-primary transition-colors">Blog</a></li>
+                        <li><a href="/#problem" className="hover:text-primary transition-colors">The Problem</a></li>
+                        <li><a href="/#solutions" className="hover:text-primary transition-colors">Solutions</a></li>
+                        <li><a href="/#pricing" className="hover:text-primary transition-colors">Pricing</a></li>
+                        <li><a href="/#contact" className="hover:text-primary transition-colors">Contact</a></li>
+                        <li><a href="/#blog" className="hover:text-primary transition-colors">Blog</a></li>
                     </ul>
                 </div>
 
@@ -42,16 +42,16 @@ export function Footer() {
                             <Twitter className="w-5 h-5" />
                         </a>
                     </div>
-                    <p className="text-gray-500">Email: kennysunshine.sun@gmail.com</p>
+                    <p className="text-gray-500">Email: <a href="mailto:kenny.swann@avatar-alchemy.com" className="hover:text-white transition-colors">kenny.swann@avatar-alchemy.com</a></p>
                 </div>
             </div>
 
             {/* Bottom Bar */}
             <div className="max-w-7xl mx-auto px-6 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">
-                <p>© 2026 Avatar Alchemy AI. All rights reserved.</p>
+                <p>© 2026 Avatar Alchemy. All rights reserved.</p>
                 <div className="flex gap-8 mt-4 md:mt-0">
-                    <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                    <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+                    <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
                 </div>
             </div>
         </footer >

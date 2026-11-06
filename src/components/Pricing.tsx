@@ -136,9 +136,9 @@ export function Pricing() {
                             <thead>
                                 <tr className="border-b border-white/10">
                                     <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest">Deliverable</th>
-                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Protocol 1</th>
-                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Protocol 2</th>
-                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Protocol 3</th>
+                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Entity Signal Protocol</th>
+                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Authority Vector System</th>
+                                    <th className="py-6 px-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">Omnipresence Ecosystem</th>
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-white/5">
@@ -146,13 +146,19 @@ export function Pricing() {
                                     <tr key={i} className="group hover:bg-white/[0.02] transition-colors">
                                         <td className="py-5 px-4 text-sm text-gray-300 font-light">{row.item}</td>
                                         <td className="py-5 px-4 text-center">
-                                            {row.t1 ? <Check className="w-4 h-4 mx-auto text-primary/60" /> : <Minus className="w-4 h-4 mx-auto text-gray-700" />}
+                                            {row.t1
+                                                ? <><Check aria-hidden="true" className="w-4 h-4 mx-auto text-primary/60" /><span className="sr-only">Included</span></>
+                                                : <><Minus aria-hidden="true" className="w-4 h-4 mx-auto text-gray-700" /><span className="sr-only">Not included</span></>}
                                         </td>
                                         <td className="py-5 px-4 text-center">
-                                            {row.t2 ? <Check className="w-4 h-4 mx-auto text-primary/60" /> : <Minus className="w-4 h-4 mx-auto text-gray-700" />}
+                                            {row.t2
+                                                ? <><Check aria-hidden="true" className="w-4 h-4 mx-auto text-primary/60" /><span className="sr-only">Included</span></>
+                                                : <><Minus aria-hidden="true" className="w-4 h-4 mx-auto text-gray-700" /><span className="sr-only">Not included</span></>}
                                         </td>
                                         <td className="py-5 px-4 text-center">
-                                            {row.t3 ? <Check className="w-4 h-4 mx-auto text-primary/60" /> : <Minus className="w-4 h-4 mx-auto text-gray-700" />}
+                                            {row.t3
+                                                ? <><Check aria-hidden="true" className="w-4 h-4 mx-auto text-primary/60" /><span className="sr-only">Included</span></>
+                                                : <><Minus aria-hidden="true" className="w-4 h-4 mx-auto text-gray-700" /><span className="sr-only">Not included</span></>}
                                         </td>
                                     </tr>
                                 ))}

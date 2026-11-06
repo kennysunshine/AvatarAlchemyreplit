@@ -1,0 +1,19 @@
+# Changelog
+
+## [Unreleased] — branch `site-fixes-2026-11`
+
+### Added
+- `/privacy` and `/terms` pages with clearly marked `[PLACEHOLDER — to be written]` sections (shared layout in `src/components/LegalPage.tsx`). Both are set to `noindex` until the placeholders are filled in.
+
+### Changed
+- Meta description is now "Websites, Google visibility and AI search for Somerset businesses. Based in Glastonbury." (was "AI-Powered Branding Audit").
+- Business name is now "Avatar Alchemy" everywhere (was "Avatar Alchemy AI"): navbar, logo alt text, footer, copyright line and the business details read by search engines (structured data).
+- Contact email is now kenny.swann@avatar-alchemy.com (was kennysunshine.sun@gmail.com) in the Contact section and footer. The footer email is now a clickable link.
+- Pricing comparison table: the column headers now use the tier names (Entity Signal Protocol / Authority Vector System / Omnipresence Ecosystem) instead of "Protocol 1/2/3".
+
+### Fixed
+- Footer "Privacy Policy" and "Terms of Service" links now go to `/privacy` and `/terms`. They previously pointed to "#".
+- Footer quick links (The Problem, Solutions, Pricing, Contact, Blog) now go to the homepage sections from every page. On the blog and booking pages they previously went nowhere.
+- Pricing comparison table: the tick and dash icons now have text equivalents ("Included" / "Not included"), so screen readers and crawlers no longer see empty cells.
+- Client logos: the carousel's second copy (needed for the seamless scroll) is now hidden from screen readers and crawlers, so each logo is listed once.
+- Digital Twin video: the fallback text "Your browser does not support the video tag." has been replaced by a link with the video's title, and the video now has a descriptive label. The video itself already played correctly.

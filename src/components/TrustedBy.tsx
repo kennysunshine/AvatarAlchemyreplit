@@ -14,11 +14,12 @@ export function TrustedBy() {
                 <p className="text-sm text-gray-500 mb-8">Trusted by businesses across industries</p>
 
                 <div className="flex gap-20 w-max animate-scroll items-center">
+                    {/* The list is rendered twice so the scroll loops seamlessly; the second copy is hidden from screen readers and text crawlers. */}
                     {[...brands, ...brands].map((brand, idx) => (
-                        <div key={idx} className="flex-shrink-0 flex items-center justify-center h-16 opacity-60 hover:opacity-100 transition-opacity duration-300">
+                        <div key={idx} aria-hidden={idx >= brands.length ? true : undefined} className="flex-shrink-0 flex items-center justify-center h-16 opacity-60 hover:opacity-100 transition-opacity duration-300">
                             <img
                                 src={brand.src}
-                                alt={brand.name}
+                                alt={idx >= brands.length ? "" : brand.name}
                                 className="h-14 w-auto max-w-[180px] object-contain"
                             />
                         </div>

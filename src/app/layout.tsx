@@ -15,7 +15,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
     title: "Avatar Alchemy",
-    description: "AI-Powered Branding Audit",
+    description: "Websites, Google visibility and AI search for Somerset businesses. Based in Glastonbury.",
 };
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
-                            "name": "Avatar Alchemy AI",
+                            "name": "Avatar Alchemy",
                             "url": "https://avatar-alchemy.com",
                             "telephone": "+447476711611",
                             "email": "info@avatar-alchemy.com",

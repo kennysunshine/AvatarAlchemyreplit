@@ -44,7 +44,7 @@ export function Contact() {
                             <div>
                                 <h3 className="font-bold mb-1">Email Us</h3>
                                 <p className="text-xs text-gray-500 mb-2">Send us an email anytime</p>
-                                <a href="mailto:kennysunshine.sun@gmail.com" className="text-primary text-sm font-medium hover:underline">kennysunshine.sun@gmail.com</a>
+                                <a href="mailto:kenny.swann@avatar-alchemy.com" className="text-primary text-sm font-medium hover:underline">kenny.swann@avatar-alchemy.com</a>
                             </div>
                         </div>
 

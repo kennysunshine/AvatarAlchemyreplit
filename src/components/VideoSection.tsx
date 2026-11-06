@@ -53,10 +53,12 @@ export function VideoSection() {
                             controls
                             playsInline
                             muted
+                            preload="metadata"
+                            aria-label={`Digital Twin demo: ${playlist[activeIdx].title}`}
                             className="w-full h-full object-cover"
                         >
                             <source src={playlist[activeIdx].src} type="video/mp4" />
-                            Your browser does not support the video tag.
+                            <a href={playlist[activeIdx].src}>Watch “{playlist[activeIdx].title}”</a>
                         </video>
                     </div>
 
