@@ -4,7 +4,7 @@ import { JsonLd } from './JsonLd';
 // DRAFT answers written by Claude from general knowledge, for Kenny to review and edit before going live.
 const faqs = [
     {
-        q: "How does my local business show up in AI search results like ChatGPT and Gemini?",
+        q: "How does my business show up in AI search results like ChatGPT and Gemini?",
         a: "AI assistants such as ChatGPT, Gemini and Google's AI Overviews build their answers from information they find across the web: your website, your Google Business Profile, reviews, directory listings and mentions on other sites. They tend to recommend businesses they can clearly identify and trust. To show up, your business needs the same details everywhere (name, contact details and what you do), a website that states plainly what you offer and who you serve, structured data that machines can read, and genuine reviews and mentions from other websites.",
     },
     {
@@ -13,7 +13,7 @@ const faqs = [
     },
     {
         q: "How much content do I need to start video repurposing?",
-        a: "Less than you might think. A single long video, such as a webinar, talk, interview or tutorial, can be cut into many short clips for TikTok, Instagram Reels and YouTube Shorts, each with captions and your branding. If you have older recordings sitting unused, they are usually a good place to start.",
+        a: "Less than you might think. A single long video, such as a webinar, talk, interview or tutorial, can be cut into many short clips for TikTok, Instagram Reels and YouTube Shorts, each with captions and your branding. If you have older recordings sitting unused, they are usually a good place to start. Every repurposing project begins with a conversation about your goals and the content you already have, so we can agree on what will work best for you.",
     },
     {
         q: "Is traditional SEO dead because of AI?",

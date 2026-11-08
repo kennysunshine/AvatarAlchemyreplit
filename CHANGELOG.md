@@ -17,8 +17,11 @@
 - Virgin Media logo from the client logo strip (logo file deleted too).
 
 ### Changed
+- Business reach is now worldwide. Meta description: "Websites, Google visibility and AI search for businesses worldwide, from a base in Somerset." The business details now list the area served as "Worldwide" (still based in Somerset, with no town or street address).
+- Removed the "SEO is dead" contradiction. The Problem card "Traditional SEO is Dead" is now "Traditional SEO Isn't Enough", with wording saying SEO still matters alongside AI. The AI Visibility pillar's "Traditional SEO is dying…" now reads "Traditional SEO alone is no longer enough…". This matches the FAQ answer.
+- FAQ: first question no longer says "local", and the video repurposing answer now says each project starts with a conversation about the client's goals and content.
 - Homepage Get Found / Get Seen / Scale row: on phones the headings now line up at the bottom, and the third heading now reads "Scale Up" (was "Scale"), so all three fill two lines on phones and the taglines align. The navbar tagline "Get Found. Get Seen. Scale." is unchanged.
-- Meta description shortened to "Websites, Google visibility and AI search for Somerset businesses." ("Based in Glastonbury." removed at Kenny's request).
+- "Based in Glastonbury." removed from the meta description at Kenny's request.
 - Business details: location is now Somerset only, with no street address or town (was London), and Somerset is listed as the area served, and the description matches the meta description (was "AI-Powered Branding Audit, Digital Twins, and Next-Gen SEO Marketing"). The business address now uses www.avatar-alchemy.com, matching Vercel's main domain.
 - Business details are kept in one place (`src/lib/site.ts`). Phone number updated to 07856 430336 (was 07476 711611). Still to confirm with Kenny: email, opening hours, price range.
 

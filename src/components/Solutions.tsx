@@ -7,7 +7,7 @@ export function Solutions() {
             icon: Search,
             title: "AI Visibility",
             subtitle: "AI Search Optimization",
-            problem: "Traditional SEO is dying; AI Search (SGE, Gemini, ChatGPT) is taking over.",
+            problem: "Traditional SEO alone is no longer enough; AI Search (SGE, Gemini, ChatGPT) is changing how customers find businesses.",
             solution: "We ensure chatbots recommend YOUR business when customers ask for local suggestions.",
             deliverables: [
                 "Advanced Schema Markup",

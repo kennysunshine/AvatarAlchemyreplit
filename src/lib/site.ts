@@ -2,7 +2,7 @@
 export const SITE_URL = "https://www.avatar-alchemy.com";
 export const BUSINESS_NAME = "Avatar Alchemy";
 export const SITE_DESCRIPTION =
-    "Websites, Google visibility and AI search for Somerset businesses.";
+    "Websites, Google visibility and AI search for businesses worldwide, from a base in Somerset.";
 
 // Business details read by Google and AI tools (schema.org LocalBusiness).
 // TODO (needs Kenny's confirmation): which email to list,
@@ -18,13 +18,13 @@ export const businessSchema = {
     image: `${SITE_URL}/brand-logo.png`,
     logo: `${SITE_URL}/brand-logo.png`,
     description: SITE_DESCRIPTION,
-    // No street address or town on purpose: Kenny wants only the county shown.
+    // No street address or town on purpose: Kenny wants only the county shown. Clients are served worldwide.
     address: {
         "@type": "PostalAddress",
         addressRegion: "Somerset",
         addressCountry: "GB",
     },
-    areaServed: { "@type": "AdministrativeArea", name: "Somerset" },
+    areaServed: "Worldwide",
     sameAs: ["https://www.linkedin.com/company/avatar-alchemy-ai"],
     priceRange: "$$$",
     openingHoursSpecification: [

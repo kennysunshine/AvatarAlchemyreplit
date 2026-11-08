@@ -6,8 +6,8 @@ export function ProblemSection() {
             icon: Search,
             color: "text-red-500",
             bg: "bg-red-500/10",
-            title: "Traditional SEO is Dead",
-            desc: "Google's AI Overviews, Gemini, and ChatGPT are replacing traditional search results. If you're not optimized for AI, you're invisible to the next generation of customers."
+            title: "Traditional SEO Isn't Enough",
+            desc: "Google's AI Overviews, Gemini, and ChatGPT now answer questions directly instead of just listing links. SEO still matters, but if you're not optimized for AI as well, you're invisible to the next generation of customers."
         },
         {
             icon: Clock,
