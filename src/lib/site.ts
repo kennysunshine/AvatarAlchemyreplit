@@ -5,8 +5,7 @@ export const SITE_DESCRIPTION =
     "Websites, Google visibility and AI search for local businesses worldwide, from a base in the South West of the UK.";
 
 // Business details read by Google and AI tools (schema.org LocalBusiness).
-// Confirmed by Kenny: phone, email (kenny.swann@), Mon–Fri 9–5 hours. Still unconfirmed:
-// price range ("$$$", carried over from the old site).
+// Confirmed by Kenny: phone, email (kenny.swann@), Mon–Fri 9–5 hours. No price range on purpose (removed at Kenny's request).
 export const businessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -26,7 +25,6 @@ export const businessSchema = {
     },
     areaServed: "Worldwide",
     sameAs: ["https://www.linkedin.com/company/avatar-alchemy-ai"],
-    priceRange: "$$$",
     openingHoursSpecification: [
         {
             "@type": "OpeningHoursSpecification",
