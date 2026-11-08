@@ -10,7 +10,7 @@ export function Navbar() {
 
     const navLinks = [
         { href: "https://avatar-alchemy.com/#problem", label: "The Problem" },
-        { href: "https://avatar-alchemy.com/#solutions", label: "Solutions" },
+        { href: "/services", label: "Services" },
         { href: "https://avatar-alchemy.com/#pricing", label: "Pricing" },
         { href: "https://avatar-alchemy.com/#contact", label: "Contact" },
         { href: "https://avatar-alchemy.com/#blog", label: "Blog" },

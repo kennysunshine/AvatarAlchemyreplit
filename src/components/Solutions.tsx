@@ -1,9 +1,10 @@
-import { Search, Video, Bot } from 'lucide-react';
+import { Search, Video, Bot, ArrowRight } from 'lucide-react';
 
 export function Solutions() {
     const pillars = [
         {
             tag: "Get Found",
+            href: "/services/ai-search-visibility",
             icon: Search,
             title: "AI Visibility",
             subtitle: "AI Search Optimization",
@@ -18,6 +19,7 @@ export function Solutions() {
         },
         {
             tag: "Get Seen",
+            href: "/services/video-repurposing",
             icon: Video,
             title: "Content Lab",
             subtitle: "The Repurposing Lab",
@@ -32,6 +34,7 @@ export function Solutions() {
         },
         {
             tag: "Scale",
+            href: "/services/digital-twins",
             icon: Bot,
             title: "Digital Twins",
             subtitle: "AI Avatars",
@@ -97,6 +100,10 @@ export function Solutions() {
                                     ))}
                                 </ul>
                             </div>
+
+                            <a href={pillar.href} className="mt-8 inline-flex items-center gap-1 text-primary text-sm font-semibold hover:gap-2 transition-all">
+                                Learn more <ArrowRight className="w-4 h-4" />
+                            </a>
                         </div>
                     ))}
                 </div>

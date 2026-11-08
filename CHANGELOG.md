@@ -1,5 +1,23 @@
 # Changelog
 
+## [Unreleased] — branch `service-pages` (built on `logo-update`)
+
+### Added
+- A page for each service, plus a `/services` overview:
+  - `/services/ai-search-visibility`: Google & AI Search Visibility (combined, as Kenny asked)
+  - `/services/website-design`: Website Design
+  - `/services/digital-twins`: Digital Twins & AI Video Avatars (includes the Tom demo videos)
+  - `/services/video-repurposing`: Video Repurposing (Content Lab)
+- Each page has: who it's for, the problem, how we solve it, what's included, how it works, pricing, example work, related FAQs, further reading, booking buttons, and Service schema for search engines and AI tools.
+- Text comes only from what is already on the site (homepage pillars, FAQ, Google Business Profile description). Every gap is a yellow `[PLACEHOLDER — to be written]` box with a prompt saying what to add. All content is in `src/lib/services.ts`.
+- While a page is a draft (`draft: true`), it is hidden from search engines and left out of the sitemap.
+
+### Changed
+- Top menu and footer: "Solutions" replaced by "Services", which goes to `/services`.
+- Homepage pillars (Get Found / Get Seen / Scale) each have a "Learn more" link to their service page.
+- FAQ answers moved to `src/lib/faqs.ts` so service pages can reuse them.
+- Digital Twin "Book a consultation" link now works from any page (`/#contact`).
+
 ## [Unreleased] — branch `logo-update`
 
 ### Changed

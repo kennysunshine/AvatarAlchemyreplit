@@ -90,7 +90,7 @@ export function VideoSection() {
 
                         <div className="pt-6 text-center border-t border-white/5 mt-6">
                             <p className="text-sm text-gray-400 mb-2">Want your own Digital Twin like Tom?</p>
-                            <a href="#contact" className="text-secondary hover:text-secondary-hover font-bold text-sm flex items-center justify-center gap-1 group">
+                            <a href="/#contact" className="text-secondary hover:text-secondary-hover font-bold text-sm flex items-center justify-center gap-1 group">
                                 Book a consultation
                                 <span className="group-hover:translate-x-1 transition-transform">→</span>
                             </a>
