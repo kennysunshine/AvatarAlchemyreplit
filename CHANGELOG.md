@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] — branch `service-pages` (built on `logo-update`)
+## 2026-11-08 — branch `service-pages` (live)
 
 ### Added
 - A page for each service, plus a `/services` overview:
@@ -23,7 +23,7 @@
 - FAQ answers moved to `src/lib/faqs.ts` so service pages can reuse them.
 - Digital Twin "Book a consultation" link now works from any page (`/#contact`).
 
-## [Unreleased] — branch `logo-update`
+## 2026-11-08 — branch `logo-update` (live)
 
 ### Changed
 - New Avatar Alchemy logo, from Kenny's hexagon-dome logo with "AI" removed from the name, the name re-centred and a small corner watermark removed. The dome and name are white on navy (#1E3A8A), the colour Kenny chose.
