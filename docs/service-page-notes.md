@@ -62,7 +62,12 @@ Draft wording:
 
 **Long-form style reference:** "Brighton Aquarium", a documentary by Kenny Swann and David Alderton, about 30 minutes, full HD, in 12 sections. Currently a review copy for comment (artifact: https://claude.ai/artifact/RCdfQEAX85c9ss6Y96fLKR). Possible "Example work" once finished, but only with Kenny's (and David Alderton's) OK to name it publicly.
 
-- How it works: not given yet (FAQ already says every project starts with a conversation)
+**How it works** (Kenny approved)
+Draft wording:
+> 1. **A conversation about your goals** and the content you already have
+> 2. **We plan the clips:** which moments to use and which platforms they're for
+> 3. **We edit, caption and brand** each clip
+> 4. **You get ready-to-post videos** for every platform you use
 **Pricing** (Kenny: scope-based, same policy as Digital Twins)
 Draft wording:
 > Every project is different, so pricing depends on the scope of your project. After our first conversation, we'll give you a clear quote based on what you need.
