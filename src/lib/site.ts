@@ -2,7 +2,7 @@
 export const SITE_URL = "https://www.avatar-alchemy.com";
 export const BUSINESS_NAME = "Avatar Alchemy";
 export const SITE_DESCRIPTION =
-    "Websites, Google visibility and AI search for businesses worldwide, from a base in Somerset.";
+    "Websites, Google visibility and AI search for local businesses worldwide, from a base in the South West of the UK.";
 
 // Business details read by Google and AI tools (schema.org LocalBusiness).
 // TODO (needs Kenny's confirmation): which email to list,

@@ -17,7 +17,7 @@
 - Virgin Media logo from the client logo strip (logo file deleted too).
 
 ### Changed
-- Business reach is now worldwide. Meta description: "Websites, Google visibility and AI search for businesses worldwide, from a base in Somerset." The business details now list the area served as "Worldwide" (still based in Somerset, with no town or street address).
+- Business reach is now worldwide. Meta description: "Websites, Google visibility and AI search for local businesses worldwide, from a base in the South West of the UK." The business details now list the area served as "Worldwide" (still based in Somerset, with no town or street address).
 - Removed the "SEO is dead" contradiction. The Problem card "Traditional SEO is Dead" is now "Traditional SEO Isn't Enough", with wording saying SEO still matters alongside AI. The AI Visibility pillar's "Traditional SEO is dying…" now reads "Traditional SEO alone is no longer enough…". This matches the FAQ answer.
 - FAQ: first question no longer says "local", and the video repurposing answer now says each project starts with a conversation about the client's goals and content.
 - Homepage Get Found / Get Seen / Scale row: on phones the headings now line up at the bottom, and the third heading now reads "Scale Up" (was "Scale"), so all three fill two lines on phones and the taglines align. The navbar tagline "Get Found. Get Seen. Scale." is unchanged.
