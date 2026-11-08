@@ -3,7 +3,7 @@
 ## [Unreleased] — branch `logo-update`
 
 ### Changed
-- New Avatar Alchemy logo, from Kenny's hexagon-dome logo with "AI" removed from the name, the name re-centred and a small corner watermark removed. The dome and name are white on a deep blue (#1D4ED8). Colour still to be confirmed by Kenny.
+- New Avatar Alchemy logo, from Kenny's hexagon-dome logo with "AI" removed from the name, the name re-centred and a small corner watermark removed. The dome and name are white on navy (#1E3A8A), the colour Kenny chose.
   - `public/brand-logo.png`: white dome on a blue circle, used in the website's top bar (replaces the old brain-circuit icon).
   - `public/brand-logo-full.png`: dome plus "AVATAR ALCHEMY" on a blue square, used for link previews and the business details Google reads, and for the Google Business Profile logo.
 - The source image was 200×200 px, so it has been enlarged; edges are slightly soft at large sizes.
