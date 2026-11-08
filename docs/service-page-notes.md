@@ -34,14 +34,27 @@ Draft wording:
 - Example work: not given yet (optional)
 
 ## Website Design
-- Intro: not given yet
-- Who it's for: not given yet
-- The problem: not given yet
-- How we solve it: not given yet
-- What's included: not given yet
+
+Kenny's notes: we build websites, but the real goal is to get clients more traction and more customers, by setting the site up so it's found by AI search engines and LLMs.
+
+**Intro** (from Kenny's notes)
+Draft wording:
+> We build websites with one goal: getting you found and winning you more customers. Every site is set up from the start so that Google and AI search tools like ChatGPT and Gemini can find, understand and recommend your business.
+
+**How we solve it** (from Kenny's notes)
+Draft wording:
+> A good-looking website isn't enough if nobody finds it. We build your site so search engines and AI assistants can read it clearly, with plain descriptions of what you do and who you serve, and structured data that machines understand. The result is a website that works as part of your marketing, bringing in visitors and enquiries instead of just sitting online.
+
+**Who it's for:** SUGGESTED by Claude, not yet approved
+> Businesses that need a new website, or have one that isn't bringing in customers. Whether you're starting from scratch or your current site is out of date, hard to find, or invisible to AI search, we build something that works for you.
+
+**The problem:** SUGGESTED by Claude, not yet approved
+> Many websites look fine but are almost invisible: they don't show up on Google, and AI assistants like ChatGPT can't work out what the business does or who it's for, so they never recommend it.
+
+- What's included: not given yet (e.g. number of pages, copywriting, hosting, domain, contact forms, schema, Google Business Profile set-up)
 - How it works: not given yet
-- Pricing: not given yet
-- Example work: not given yet (can Avalon Tree Services be named?)
+- Pricing: not given yet (scope-based, like the others?)
+- Example work: not given yet (Avalon Tree Services, if Kenny is happy to name them)
 
 ## Video Repurposing (Content Lab)
 
