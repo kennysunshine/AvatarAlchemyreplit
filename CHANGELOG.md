@@ -6,6 +6,8 @@
 - New Avatar Alchemy logo, from Kenny's hexagon-dome logo with "AI" removed from the name, the name re-centred and a small corner watermark removed. The dome and name are white on navy (#1E3A8A), the colour Kenny chose.
   - `public/brand-logo.png`: white dome on a blue circle, used in the website's top bar (replaces the old brain-circuit icon).
   - `public/brand-logo-full.png`: dome plus "AVATAR ALCHEMY" on a blue square, used for link previews and the business details Google reads, and for the Google Business Profile logo.
+- Footer social buttons now go to the business pages: Facebook (https://www.facebook.com/profile.php?id=61551733191534) and the LinkedIn company page (https://www.linkedin.com/company/avataralchemyai/). They previously went to Kenny's personal profiles. The X (Twitter) button was removed because it linked to a personal account.
+- Business details: `sameAs` now lists the business Facebook and LinkedIn pages. It previously had an incorrect LinkedIn address (`avatar-alchemy-ai`). Opening hours are now Mon–Sat 9–5, matching the Google Business Profile.
 - The source image was 200×200 px, so it has been enlarged; edges are slightly soft at large sizes.
 
 ## 2026-11-08 — branch `visibility-fixes` (live)

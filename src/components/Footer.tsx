@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Twitter } from 'lucide-react';
+import { Facebook, Linkedin } from 'lucide-react';
 
 export function Footer() {
     return (
@@ -32,14 +32,11 @@ export function Footer() {
                     <h4 className="font-bold mb-6 text-white">Connect With Us</h4>
                     <p className="text-gray-400 mb-6">Follow us for AI marketing insights and updates</p>
                     <div className="flex gap-4 mb-6">
-                        <a href="https://www.facebook.com/kenny.bountifulswann/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
+                        <a href="https://www.facebook.com/profile.php?id=61551733191534" aria-label="Avatar Alchemy on Facebook" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
                             <Facebook className="w-5 h-5" />
                         </a>
-                        <a href="https://www.linkedin.com/in/kenny-swann-375117196/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
+                        <a href="https://www.linkedin.com/company/avataralchemyai/" aria-label="Avatar Alchemy on LinkedIn" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
                             <Linkedin className="w-5 h-5" />
-                        </a>
-                        <a href="https://x.com/Edenpappa" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
-                            <Twitter className="w-5 h-5" />
                         </a>
                     </div>
                     <p className="text-gray-500">Email: <a href="mailto:kenny.swann@avatar-alchemy.com" className="hover:text-white transition-colors">kenny.swann@avatar-alchemy.com</a></p>
