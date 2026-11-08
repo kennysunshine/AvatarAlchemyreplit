@@ -7,6 +7,7 @@
 - Each blog post now has its own page title and description, taken from the post's own text. All three previously showed only "Avatar Alchemy" and the homepage description.
 
 ### Added
+- FAQ answers (DRAFT, written by Claude from general knowledge, for Kenny to review before going live). Questions now open and close when tapped, and the answers are in the page HTML with FAQPage schema so search engines and AI tools can read them.
 - `/sitemap.xml`, listing the homepage, booking page and the three blog posts. Privacy and Terms are left out while they are placeholders.
 - `/robots.txt`, allowing all search engines and AI crawlers and pointing them to the sitemap.
 - Article details (BlogPosting schema) on each blog post: headline, description, publish date, category, publisher.
