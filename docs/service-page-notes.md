@@ -55,11 +55,11 @@ Draft wording:
 Draft wording:
 > - As many pages as your business needs
 > - Website text written for you, clear for customers, Google and AI search
-> - Hosting and domain name set-up
+> - Help with hosting and your domain name if you need it (available as an extra)
 > - Contact forms, so enquiries come straight to you
 > - Structured data (schema) so search engines and AI tools understand your business
 > - Google Business Profile set-up
-(Check with Kenny: are hosting and domain always included, or only when needed?)
+(Kenny: hosting and domain normally stay in the client's own name and account. Kenny can set them up for clients who need help, for an extra charge.)
 
 **How it works** (Kenny: depends on scope and where the customer is, e.g. existing website or not; it starts with a conversation)
 Draft wording:
@@ -73,7 +73,7 @@ Draft wording:
 Draft wording:
 > Every project is different, so pricing depends on the scope of your project. After our first conversation, we'll give you a clear quote based on what you need.
 
-**Example work:** Avalon Tree Services (Kenny approved naming them). Use the Avalon logo already in the logo strip. Still needed: is their new website live, and what's its address (to link to it)? Only describe what was done; no results or figures unless Kenny supplies them.
+**Example work:** Avalon Tree Services (Kenny approved naming them). Use the Avalon logo already in the logo strip. Their website: https://www.avalontreeservices.co.uk (link to it from the example). Only describe what was done; no results or figures unless Kenny supplies them.
 
 ## Video Repurposing (Content Lab)
 
