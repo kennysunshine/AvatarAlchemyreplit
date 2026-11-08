@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] — branch `visibility-fixes`
+## 2026-11-08 — branch `visibility-fixes` (live)
 
 ### Fixed
 - Business details for search engines (schema.org LocalBusiness) are now written into the page HTML. Before, they were only added by JavaScript, so AI crawlers that don't run JavaScript couldn't see them.
