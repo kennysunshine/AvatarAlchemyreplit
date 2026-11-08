@@ -21,7 +21,7 @@ export function Navbar() {
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 {/* Logo Area */}
                 <div className="flex items-center gap-3">
-                    <img src="/brand-logo.png" alt="Avatar Alchemy logo" className="w-10 h-10 rounded-full object-cover" />
+                    <img src="/brand-logo.png" alt="Avatar Alchemy logo" className="w-10 h-10 object-contain" />
                     <div className="flex flex-col leading-tight">
                         <span className="font-bold text-lg tracking-tight">Avatar Alchemy</span>
                         <span className="text-[10px] text-gray-400 font-medium whitespace-nowrap">Get Found. Get Seen. Scale.</span>

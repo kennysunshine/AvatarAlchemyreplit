@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         title: "Avatar Alchemy",
         description: SITE_DESCRIPTION,
         locale: "en_GB",
-        images: ["/brand-logo.png"],
+        images: ["/brand-logo-full.png"],
     },
 };
 

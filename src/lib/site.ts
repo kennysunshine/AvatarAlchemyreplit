@@ -14,8 +14,8 @@ export const businessSchema = {
     url: SITE_URL,
     telephone: "+447856430336",
     email: "kenny.swann@avatar-alchemy.com",
-    image: `${SITE_URL}/brand-logo.png`,
-    logo: `${SITE_URL}/brand-logo.png`,
+    image: `${SITE_URL}/brand-logo-full.png`,
+    logo: `${SITE_URL}/brand-logo-full.png`,
     description: SITE_DESCRIPTION,
     // No street address or town on purpose: Kenny wants only the county shown. Clients are served worldwide.
     address: {
@@ -98,7 +98,7 @@ export function blogPostSchema(slug: string) {
         datePublished: post.datePublished,
         articleSection: post.category,
         mainEntityOfPage: `${SITE_URL}/blog/${slug}`,
-        image: `${SITE_URL}/brand-logo.png`,
+        image: `${SITE_URL}/brand-logo-full.png`,
         author: { "@id": `${SITE_URL}/#business`, "@type": "Organization", name: BUSINESS_NAME },
         publisher: { "@id": `${SITE_URL}/#business`, "@type": "Organization", name: BUSINESS_NAME },
     };
