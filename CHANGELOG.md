@@ -1,6 +1,22 @@
 # Changelog
 
-## [Unreleased] — branch `site-fixes-2026-11`
+## [Unreleased] — branch `visibility-fixes`
+
+### Fixed
+- Business details for search engines (schema.org LocalBusiness) are now written into the page HTML. Before, they were only added by JavaScript, so AI crawlers that don't run JavaScript couldn't see them.
+- Each blog post now has its own page title and description, taken from the post's own text. All three previously showed only "Avatar Alchemy" and the homepage description.
+
+### Added
+- `/sitemap.xml`, listing the homepage, booking page and the three blog posts. Privacy and Terms are left out while they are placeholders.
+- `/robots.txt`, allowing all search engines and AI crawlers and pointing them to the sitemap.
+- Article details (BlogPosting schema) on each blog post: headline, description, publish date, category, publisher.
+- Canonical addresses for the homepage and blog posts, plus Open Graph details used for link previews.
+
+### Changed
+- Business details: location is now Glastonbury, Somerset (was London), and the description is the new meta description (was "AI-Powered Branding Audit, Digital Twins, and Next-Gen SEO Marketing"). The business address now uses www.avatar-alchemy.com, matching Vercel's main domain.
+- Business details are kept in one place (`src/lib/site.ts`). Still to confirm with Kenny: full address and postcode, areas served, phone, email, opening hours, price range.
+
+## 2026-11-08 — branch `site-fixes-2026-11` (live)
 
 ### Added
 - `/privacy` and `/terms` pages with clearly marked `[PLACEHOLDER — to be written]` sections (shared layout in `src/components/LegalPage.tsx`). Both are set to `noindex` until the placeholders are filled in.

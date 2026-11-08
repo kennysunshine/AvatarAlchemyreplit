@@ -2,10 +2,16 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ArrowLeft, Clock, Calendar } from "lucide-react";
 import Link from "next/link";
+import type { Metadata } from "next";
+import { JsonLd } from "@/components/JsonLd";
+import { blogPostMetadata, blogPostSchema } from "@/lib/site";
+
+export const metadata: Metadata = blogPostMetadata("what-is-geo");
 
 export default function BlogPost() {
     return (
         <main className="min-h-screen bg-[#050609] text-white">
+            <JsonLd data={blogPostSchema("what-is-geo")} />
             <Navbar />
 
             <article className="pt-32 pb-20 px-6 max-w-3xl mx-auto">

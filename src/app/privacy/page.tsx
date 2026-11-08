@@ -3,7 +3,7 @@ import { LegalPage, LegalSection, Placeholder } from "@/components/LegalPage";
 
 // noindex until the placeholders are replaced with the real policy — remove `robots` then.
 export const metadata: Metadata = {
-    title: "Privacy Policy | Avatar Alchemy",
+    title: "Privacy Policy",
     robots: { index: false, follow: true },
 };
 
