@@ -28,10 +28,27 @@ Draft wording:
 **Example work:** Kenny is building his own Digital Twin (expected around mid-November 2026). Use that as the example once it's ready. Until then, keep this section as a placeholder (or hide it); the Tom demo videos already appear on the page.
 
 ## Google & AI Search Visibility
-- Who it's for: not given yet
-- How we solve it (Google side): not given yet
-- How it works: not given yet
-- Example work: not given yet (optional)
+
+Kenny's notes: for businesses who want to be found more prominently on Google and AI search without paying large amounts for ads. We get everything congruent across the digital landscape so it all matches up (website, schema, Google Business Profile and so on), exactly as done for Avatar Alchemy itself. Pricing: the three plans already on the homepage (the page already links to them).
+
+**Who it's for**
+Draft wording:
+> Businesses that want to be found more prominently on Google and in AI search, without spending large amounts on advertising. If competitors keep appearing ahead of you, or ChatGPT and Gemini don't mention you when customers ask for a recommendation, this is for you.
+
+**How we solve it**
+Draft wording:
+> We make sure everything about your business matches up across the internet. Your website, Google Business Profile, social media pages and directory listings should all tell the same story: the same name, contact details, opening hours and description of what you do. We add structured data (schema) to your website so search engines and AI tools can read your details directly, and we keep your Google Business Profile complete and up to date. When everything is consistent, Google and AI assistants can trust your business, which makes them more likely to show it and recommend it.
+
+**How it works**
+Draft wording:
+> 1. **Free visibility audit.** We check how visible your business is on Google and in AI search today.
+> 2. **Find the gaps.** We find every place your business details are missing, out of date or don't match.
+> 3. **Fix and connect.** We update your website, structured data, Google Business Profile, social pages and listings so they all line up.
+> 4. **Track and improve.** We keep checking how you appear on Google and in AI search, and keep improving it.
+
+**Pricing:** links to the three monthly plans on the homepage (already on the page). No change needed.
+
+**Example work** (optional): idea: Avatar Alchemy itself, since this exact process was done on Kenny's own site and Google profile. Ask Kenny.
 
 ## Website Design
 
