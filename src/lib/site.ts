@@ -5,7 +5,7 @@ export const SITE_DESCRIPTION =
     "Websites, Google visibility and AI search for local businesses worldwide, from a base in the South West of the UK.";
 
 // Business details read by Google and AI tools (schema.org LocalBusiness).
-// TODO (needs Kenny's confirmation): which email to list,
+// Confirmed by Kenny: phone, email (kenny.swann@), Mon–Fri 9–5 hours. Still unconfirmed:
 // opening hours, price range. Only details already on the site are used below.
 export const businessSchema = {
     "@context": "https://schema.org",
@@ -14,7 +14,7 @@ export const businessSchema = {
     name: BUSINESS_NAME,
     url: SITE_URL,
     telephone: "+447856430336",
-    email: "info@avatar-alchemy.com",
+    email: "kenny.swann@avatar-alchemy.com",
     image: `${SITE_URL}/brand-logo.png`,
     logo: `${SITE_URL}/brand-logo.png`,
     description: SITE_DESCRIPTION,

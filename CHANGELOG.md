@@ -23,7 +23,7 @@
 - Homepage Get Found / Get Seen / Scale row: on phones the headings now line up at the bottom, and the third heading now reads "Scale Up" (was "Scale"), so all three fill two lines on phones and the taglines align. The navbar tagline "Get Found. Get Seen. Scale." is unchanged.
 - "Based in Glastonbury." removed from the meta description at Kenny's request.
 - Business details: location is now Somerset only, with no street address or town (was London), and Somerset is listed as the area served, and the description matches the meta description (was "AI-Powered Branding Audit, Digital Twins, and Next-Gen SEO Marketing"). The business address now uses www.avatar-alchemy.com, matching Vercel's main domain.
-- Business details are kept in one place (`src/lib/site.ts`). Phone number updated to 07856 430336 (was 07476 711611). Still to confirm with Kenny: email, opening hours, price range.
+- Business details are kept in one place (`src/lib/site.ts`). Phone number updated to 07856 430336 (was 07476 711611), email to kenny.swann@avatar-alchemy.com (was info@avatar-alchemy.com), and Kenny confirmed Mon–Fri 9–5 hours. Price range ("$$$") is unchanged and unconfirmed.
 
 ## 2026-11-08 — branch `site-fixes-2026-11` (live)
 
