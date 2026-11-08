@@ -51,10 +51,29 @@ Draft wording:
 **The problem:** SUGGESTED by Claude, not yet approved
 > Many websites look fine but are almost invisible: they don't show up on Google, and AI assistants like ChatGPT can't work out what the business does or who it's for, so they never recommend it.
 
-- What's included: not given yet (e.g. number of pages, copywriting, hosting, domain, contact forms, schema, Google Business Profile set-up)
-- How it works: not given yet
-- Pricing: not given yet (scope-based, like the others?)
-- Example work: not given yet (Avalon Tree Services, if Kenny is happy to name them)
+**What's included** (Kenny: "pretty much" the suggested list)
+Draft wording:
+> - As many pages as your business needs
+> - Website text written for you, clear for customers, Google and AI search
+> - Hosting and domain name set-up
+> - Contact forms, so enquiries come straight to you
+> - Structured data (schema) so search engines and AI tools understand your business
+> - Google Business Profile set-up
+(Check with Kenny: are hosting and domain always included, or only when needed?)
+
+**How it works** (Kenny: depends on scope and where the customer is, e.g. existing website or not; it starts with a conversation)
+Draft wording:
+> Every project is shaped around where you are now. Whether you're starting from scratch or already have a website, we begin with a conversation:
+> 1. **A conversation** about your business, your goals and your current website, if you have one
+> 2. **A plan and a quote** based on what you need
+> 3. **We build your site,** set up to be found on Google and recommended by AI search
+> 4. **Launch,** with your Google Business Profile and listings joined up to your new site
+
+**Pricing** (Kenny: scope-based, same policy as the others)
+Draft wording:
+> Every project is different, so pricing depends on the scope of your project. After our first conversation, we'll give you a clear quote based on what you need.
+
+**Example work:** Avalon Tree Services (Kenny approved naming them). Use the Avalon logo already in the logo strip. Still needed: is their new website live, and what's its address (to link to it)? Only describe what was done; no results or figures unless Kenny supplies them.
 
 ## Video Repurposing (Content Lab)
 
