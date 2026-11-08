@@ -5,7 +5,7 @@ export const SITE_DESCRIPTION =
     "Websites, Google visibility and AI search for Somerset businesses. Based in Glastonbury.";
 
 // Business details read by Google and AI tools (schema.org LocalBusiness).
-// TODO (needs Kenny's confirmation): full address/postcode, areas served, which phone and email to list,
+// TODO (needs Kenny's confirmation): which phone and email to list,
 // opening hours, price range. Only details already on the site are used below.
 export const businessSchema = {
     "@context": "https://schema.org",
@@ -18,12 +18,13 @@ export const businessSchema = {
     image: `${SITE_URL}/brand-logo.png`,
     logo: `${SITE_URL}/brand-logo.png`,
     description: SITE_DESCRIPTION,
+    // No street address or town on purpose: Kenny wants only the county shown.
     address: {
         "@type": "PostalAddress",
-        addressLocality: "Glastonbury",
         addressRegion: "Somerset",
         addressCountry: "GB",
     },
+    areaServed: { "@type": "AdministrativeArea", name: "Somerset" },
     sameAs: ["https://www.linkedin.com/company/avatar-alchemy-ai"],
     priceRange: "$$$",
     openingHoursSpecification: [

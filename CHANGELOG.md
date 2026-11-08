@@ -13,8 +13,8 @@
 - Canonical addresses for the homepage and blog posts, plus Open Graph details used for link previews.
 
 ### Changed
-- Business details: location is now Glastonbury, Somerset (was London), and the description is the new meta description (was "AI-Powered Branding Audit, Digital Twins, and Next-Gen SEO Marketing"). The business address now uses www.avatar-alchemy.com, matching Vercel's main domain.
-- Business details are kept in one place (`src/lib/site.ts`). Still to confirm with Kenny: full address and postcode, areas served, phone, email, opening hours, price range.
+- Business details: location is now Somerset only, with no street address or town (was London), and Somerset is listed as the area served, and the description is the new meta description (was "AI-Powered Branding Audit, Digital Twins, and Next-Gen SEO Marketing"). The business address now uses www.avatar-alchemy.com, matching Vercel's main domain.
+- Business details are kept in one place (`src/lib/site.ts`). Still to confirm with Kenny: phone, email, opening hours, price range.
 
 ## 2026-11-08 — branch `site-fixes-2026-11` (live)
 
