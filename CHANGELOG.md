@@ -16,6 +16,9 @@
 ### Removed
 - Virgin Media logo from the client logo strip (logo file deleted too).
 
+### Added (logos)
+- Avalon Tree Services logo in the client logo strip, in the place Virgin Media had. Supplied by Kenny and trimmed of empty background (`public/logos/avalon-tree-services.png`).
+
 ### Changed
 - Business reach is now worldwide. Meta description: "Websites, Google visibility and AI search for local businesses worldwide, from a base in the South West of the UK." The business details now list the area served as "Worldwide" (still based in Somerset, with no town or street address).
 - Removed the "SEO is dead" contradiction. The Problem card "Traditional SEO is Dead" is now "Traditional SEO Isn't Enough", with wording saying SEO still matters alongside AI. The AI Visibility pillar's "Traditional SEO is dying…" now reads "Traditional SEO alone is no longer enough…". This matches the FAQ answer.

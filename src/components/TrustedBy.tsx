@@ -2,6 +2,7 @@ const brands = [
     { name: 'PetInfoClub.com', src: '/logos/petinfoclub.png' },
     { name: 'British Chelonia Group', src: '/logos/british-chelonia.png' },
     { name: 'Biochi', src: '/logos/biochi.png' },
+    { name: 'Avalon Tree Services', src: '/logos/avalon-tree-services.png' },
     { name: 'EHC Sport', src: '/logos/ehc-sport.png' },
     { name: 'Museum of Aquarium & Pet History', src: '/logos/museum-aquarium.jpg' },
 ];
@@ -19,7 +20,7 @@ export function TrustedBy() {
                             <img
                                 src={brand.src}
                                 alt={idx >= brands.length ? "" : brand.name}
-                                className="h-14 w-auto max-w-[180px] object-contain"
+                                className="h-14 w-auto max-w-[180px] object-contain rounded-md"
                             />
                         </div>
                     ))}
