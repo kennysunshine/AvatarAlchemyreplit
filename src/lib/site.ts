@@ -5,7 +5,7 @@ export const SITE_DESCRIPTION =
     "Websites, Google visibility and AI search for Somerset businesses. Based in Glastonbury.";
 
 // Business details read by Google and AI tools (schema.org LocalBusiness).
-// TODO (needs Kenny's confirmation): which phone and email to list,
+// TODO (needs Kenny's confirmation): which email to list,
 // opening hours, price range. Only details already on the site are used below.
 export const businessSchema = {
     "@context": "https://schema.org",
@@ -13,7 +13,7 @@ export const businessSchema = {
     "@id": `${SITE_URL}/#business`,
     name: BUSINESS_NAME,
     url: SITE_URL,
-    telephone: "+447476711611",
+    telephone: "+447856430336",
     email: "info@avatar-alchemy.com",
     image: `${SITE_URL}/brand-logo.png`,
     logo: `${SITE_URL}/brand-logo.png`,
