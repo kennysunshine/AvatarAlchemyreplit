@@ -63,7 +63,9 @@ Draft wording:
 **Long-form style reference:** "Brighton Aquarium", a documentary by Kenny Swann and David Alderton, about 30 minutes, full HD, in 12 sections. Currently a review copy for comment (artifact: https://claude.ai/artifact/RCdfQEAX85c9ss6Y96fLKR). Possible "Example work" once finished, but only with Kenny's (and David Alderton's) OK to name it publicly.
 
 - How it works: not given yet (FAQ already says every project starts with a conversation)
-- Pricing: not given yet
+**Pricing** (Kenny: scope-based, same policy as Digital Twins)
+Draft wording:
+> Every project is different, so pricing depends on the scope of your project. After our first conversation, we'll give you a clear quote based on what you need.
 - Example work: **the Brighton Aquarium documentary** (Kenny's decision). Before adding it:
   - use the finished version, not the review copy
   - check David Alderton is happy for it to be shown
