@@ -2,7 +2,6 @@ const brands = [
     { name: 'PetInfoClub.com', src: '/logos/petinfoclub.png' },
     { name: 'British Chelonia Group', src: '/logos/british-chelonia.png' },
     { name: 'Biochi', src: '/logos/biochi.png' },
-    { name: 'Virgin Media', src: '/logos/virgin-media.png' },
     { name: 'EHC Sport', src: '/logos/ehc-sport.png' },
     { name: 'Museum of Aquarium & Pet History', src: '/logos/museum-aquarium.jpg' },
 ];

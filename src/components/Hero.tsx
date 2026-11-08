@@ -62,15 +62,15 @@ export function Hero() {
                 <FadeIn delay={0.5}>
                     <div className="grid grid-cols-3 gap-12 md:gap-24 text-center w-full max-w-4xl mx-auto border-t border-white/5 pt-12">
                         <div>
-                            <h3 className="text-2xl font-bold text-primary mb-1 font-heading">Get Found</h3>
+                            <h3 className="text-2xl font-bold text-primary mb-1 font-heading min-h-[4rem] flex items-end justify-center md:min-h-0">Get Found</h3>
                             <p className="text-sm text-gray-500 uppercase tracking-wider">AI Visibility</p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold text-primary mb-1 font-heading">Get Seen</h3>
+                            <h3 className="text-2xl font-bold text-primary mb-1 font-heading min-h-[4rem] flex items-end justify-center md:min-h-0">Get Seen</h3>
                             <p className="text-sm text-gray-500 uppercase tracking-wider">Content Lab</p>
                         </div>
                         <div>
-                            <h3 className="text-2xl font-bold text-primary mb-1 font-heading">Scale</h3>
+                            <h3 className="text-2xl font-bold text-primary mb-1 font-heading min-h-[4rem] flex items-end justify-center md:min-h-0">Scale</h3>
                             <p className="text-sm text-gray-500 uppercase tracking-wider">Digital Twins</p>
                         </div>
                     </div>

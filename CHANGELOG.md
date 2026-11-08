@@ -12,7 +12,11 @@
 - Article details (BlogPosting schema) on each blog post: headline, description, publish date, category, publisher.
 - Canonical addresses for the homepage and blog posts, plus Open Graph details used for link previews.
 
+### Removed
+- Virgin Media logo from the client logo strip (logo file deleted too).
+
 ### Changed
+- Homepage Get Found / Get Seen / Scale row: on phones the headings now line up at the bottom, so "Scale" sits level with "Found" and "Seen" and the three taglines align. Wording unchanged.
 - Meta description shortened to "Websites, Google visibility and AI search for Somerset businesses." ("Based in Glastonbury." removed at Kenny's request).
 - Business details: location is now Somerset only, with no street address or town (was London), and Somerset is listed as the area served, and the description matches the meta description (was "AI-Powered Branding Audit, Digital Twins, and Next-Gen SEO Marketing"). The business address now uses www.avatar-alchemy.com, matching Vercel's main domain.
 - Business details are kept in one place (`src/lib/site.ts`). Phone number updated to 07856 430336 (was 07476 711611). Still to confirm with Kenny: email, opening hours, price range.
