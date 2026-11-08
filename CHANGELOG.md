@@ -17,7 +17,7 @@
 - Virgin Media logo from the client logo strip (logo file deleted too).
 
 ### Added (logos)
-- Avalon Tree Services logo in the client logo strip, in the place Virgin Media had. Supplied by Kenny and trimmed of empty background (`public/logos/avalon-tree-services.png`).
+- Avalon Tree Services logo in the client logo strip, in the place Virgin Media had (`public/logos/avalon-tree-services.png`). Made from Kenny's navy-lettering version: background made transparent, lettering turned white, and the green matched to his dark-background version, so it suits the dark site.
 
 ### Changed
 - Business reach is now worldwide. Meta description: "Websites, Google visibility and AI search for local businesses worldwide, from a base in the South West of the UK." The business details now list the area served as "Worldwide" (still based in Somerset, with no town or street address).
