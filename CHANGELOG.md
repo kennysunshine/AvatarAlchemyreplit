@@ -15,6 +15,8 @@
 - Examples still to come (those sections are hidden until then): Kenny's own Digital Twin, and the Brighton Aquarium documentary for Video Repurposing.
 - Video Repurposing "What's included" now covers every vertical platform (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts) and long-form and documentary-style video.
 
+- LinkedIn company page address updated to linkedin.com/company/avataralchemy (Kenny changed it from `avataralchemyai`), in the footer button and the business details.
+
 ### Changed
 - Top menu and footer: "Solutions" replaced by "Services", which goes to `/services`.
 - Homepage pillars (Get Found / Get Seen / Scale) each have a "Learn more" link to their service page.

@@ -35,7 +35,7 @@ export function Footer() {
                         <a href="https://www.facebook.com/profile.php?id=61551733191534" aria-label="Avatar Alchemy on Facebook" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
                             <Facebook className="w-5 h-5" />
                         </a>
-                        <a href="https://www.linkedin.com/company/avataralchemyai/" aria-label="Avatar Alchemy on LinkedIn" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
+                        <a href="https://www.linkedin.com/company/avataralchemy/" aria-label="Avatar Alchemy on LinkedIn" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-gray-400 hover:text-white">
                             <Linkedin className="w-5 h-5" />
                         </a>
                     </div>

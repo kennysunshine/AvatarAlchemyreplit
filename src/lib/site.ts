@@ -24,7 +24,7 @@ export const businessSchema = {
         addressCountry: "GB",
     },
     areaServed: "Worldwide",
-    sameAs: ["https://www.facebook.com/profile.php?id=61551733191534", "https://www.linkedin.com/company/avataralchemyai/"],
+    sameAs: ["https://www.facebook.com/profile.php?id=61551733191534", "https://www.linkedin.com/company/avataralchemy/"],
     openingHoursSpecification: [
         {
             "@type": "OpeningHoursSpecification",
