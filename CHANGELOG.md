@@ -9,8 +9,11 @@
   - `/services/digital-twins`: Digital Twins & AI Video Avatars (includes the Tom demo videos)
   - `/services/video-repurposing`: Video Repurposing (Content Lab)
 - Each page has: who it's for, the problem, how we solve it, what's included, how it works, pricing, example work, related FAQs, further reading, booking buttons, and Service schema for search engines and AI tools.
-- Text comes only from what is already on the site (homepage pillars, FAQ, Google Business Profile description). Every gap is a yellow `[PLACEHOLDER — to be written]` box with a prompt saying what to add. All content is in `src/lib/services.ts`.
-- While a page is a draft (`draft: true`), it is hidden from search engines and left out of the sitemap.
+- All four pages are written from Kenny's notes (`docs/service-page-notes.md`) plus text already on the site. No placeholders remain. All content is in `src/lib/services.ts`.
+- The pages are no longer drafts, so they can be found by search engines and are listed in the sitemap.
+- Website Design example: Avalon Tree Services, with their logo and a link to avalontreeservices.co.uk.
+- Examples still to come (those sections are hidden until then): Kenny's own Digital Twin, and the Brighton Aquarium documentary for Video Repurposing.
+- Video Repurposing "What's included" now covers every vertical platform (TikTok, Instagram Reels, Facebook Reels, YouTube Shorts) and long-form and documentary-style video.
 
 ### Changed
 - Top menu and footer: "Solutions" replaced by "Services", which goes to `/services`.

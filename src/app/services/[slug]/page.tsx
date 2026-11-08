@@ -41,7 +41,7 @@ function Section({ heading, children }: { heading: string; children: React.React
 
 const text = "text-gray-400 text-lg leading-relaxed";
 
-function Body({ s, field }: { s: Service; field: "whoFor" | "problem" | "solution" | "example" }) {
+function Body({ s, field }: { s: Service; field: "whoFor" | "problem" | "solution" }) {
     const value = s[field];
     return value ? <p className={text}>{value}</p> : <Placeholder>{s.prompts[field]}</Placeholder>;
 }
@@ -96,9 +96,17 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 </Section>
 
                 <Section heading="How it works">
+                    {s.howItWorksIntro && <p className={`${text} mb-5`}>{s.howItWorksIntro}</p>}
                     {s.howItWorks ? (
-                        <ol className="space-y-3 list-decimal list-inside text-gray-300 text-lg">
-                            {s.howItWorks.map((step) => <li key={step}>{step}</li>)}
+                        <ol className="space-y-4">
+                            {s.howItWorks.map((step, i) => (
+                                <li key={step.title} className="flex gap-4 text-lg">
+                                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-primary/15 text-primary font-bold text-sm flex items-center justify-center mt-0.5">{i + 1}</span>
+                                    <span className="text-gray-400 leading-relaxed">
+                                        <strong className="text-white font-semibold">{step.title}</strong>{step.text ? ` ${step.text}` : ""}
+                                    </span>
+                                </li>
+                            ))}
                         </ol>
                     ) : (
                         <Placeholder>{s.prompts.howItWorks}</Placeholder>
@@ -118,7 +126,26 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     )}
                 </Section>
 
-                <Section heading="Example work"><Body s={s} field="example" /></Section>
+                {s.example ? (
+                    <Section heading="Example work">
+                        <div className="bg-[#0F1115] border border-white/5 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 items-start sm:items-center">
+                            {s.example.logo && (
+                                // eslint-disable-next-line @next/next/no-img-element
+                                <img src={s.example.logo.src} alt={s.example.logo.alt} className="h-20 w-auto object-contain flex-shrink-0" />
+                            )}
+                            <div>
+                                <p className="text-gray-300 text-lg leading-relaxed mb-3">{s.example.text}</p>
+                                {s.example.link && (
+                                    <a href={s.example.link.href} target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline inline-flex items-center gap-1">
+                                        {s.example.link.label} <ArrowRight className="w-4 h-4" />
+                                    </a>
+                                )}
+                            </div>
+                        </div>
+                    </Section>
+                ) : (
+                    s.prompts.example && <Section heading="Example work"><Placeholder>{s.prompts.example}</Placeholder></Section>
+                )}
             </article>
 
             {s.showDemoVideos && <VideoSection />}

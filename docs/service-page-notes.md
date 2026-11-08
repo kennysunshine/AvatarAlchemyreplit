@@ -1,6 +1,6 @@
 # Service page notes (not yet added to the site)
 
-Kenny's notes for the placeholders. Nothing here is on the site until Kenny says to add it.
+Kenny's notes for the service pages. **All approved wording has been added to the pages (src/lib/services.ts).** Still to add: Kenny's own Digital Twin (Digital Twins example) and the final link to the Brighton Aquarium documentary (Video Repurposing example).
 
 ## Digital Twins & AI Video Avatars
 
