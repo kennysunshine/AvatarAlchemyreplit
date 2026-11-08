@@ -6,7 +6,7 @@ export const SITE_DESCRIPTION =
 
 // Business details read by Google and AI tools (schema.org LocalBusiness).
 // Confirmed by Kenny: phone, email (kenny.swann@), Mon–Fri 9–5 hours. Still unconfirmed:
-// opening hours, price range. Only details already on the site are used below.
+// price range ("$$$", carried over from the old site).
 export const businessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
