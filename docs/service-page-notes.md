@@ -49,13 +49,18 @@ Draft wording:
 Draft wording:
 > Businesses and creators who already have long videos, such as webinars, talks, interviews, podcasts or tutorials, but don't have the time to turn them into regular social media content. If your best material is sitting on a hard drive or buried on YouTube, it can be working for you every day instead.
 
-**How we solve it** (Kenny: take long-form content and cut it into clips for TikTok, Facebook Reels and Instagram; can also create long-form content if needed)
+**How we solve it** (Kenny: cut long-form content into vertical clips for whatever platform the client uses, including TikTok, Instagram Reels, Facebook Reels and YouTube Shorts; can also create long-form content, documentary style, like the Brighton Aquarium film)
 Draft wording:
-> We take your long-form videos and turn them into short clips for TikTok, Facebook Reels and Instagram, each one captioned and branded so it's ready to post. If you need new long-form content as well, we can create that for you too.
+> We take your long-form videos and turn them into short vertical clips for whichever platforms you use, whether that's TikTok, Instagram Reels, Facebook Reels or YouTube Shorts. Each clip is captioned and branded so it's ready to post. If you need new long-form content as well, we can create it for you, from documentary-style films to longer videos for YouTube and your website.
 
-Open questions for Kenny:
-- The "What's included" list currently says "TikTok, Reels & YouTube Shorts". Kenny named TikTok, Facebook Reels and Instagram. Should YouTube Shorts stay, and should Facebook be added to that list?
-- Should "Long-form video creation" be added to "What's included"?
+**What's included** (update the current list):
+- Long-form to short-form transformation (keep)
+- Change "TikTok, Reels & YouTube Shorts" to: "Vertical short-form video for any platform: TikTok, Instagram Reels, Facebook Reels, YouTube Shorts" (Kenny confirmed YouTube Shorts stays)
+- High-accuracy captions (keep)
+- Professional branding & polish (keep)
+- Add: "Long-form video creation, including documentary-style films" (Kenny confirmed)
+
+**Long-form style reference:** "Brighton Aquarium", a documentary by Kenny Swann and David Alderton, about 30 minutes, full HD, in 12 sections. Currently a review copy for comment (artifact: https://claude.ai/artifact/RCdfQEAX85c9ss6Y96fLKR). Possible "Example work" once finished, but only with Kenny's (and David Alderton's) OK to name it publicly.
 
 - How it works: not given yet (FAQ already says every project starts with a conversation)
 - Pricing: not given yet
