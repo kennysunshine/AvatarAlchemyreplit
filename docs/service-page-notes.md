@@ -64,4 +64,8 @@ Draft wording:
 
 - How it works: not given yet (FAQ already says every project starts with a conversation)
 - Pricing: not given yet
-- Example work: not given yet (optional)
+- Example work: **the Brighton Aquarium documentary** (Kenny's decision). Before adding it:
+  - use the finished version, not the review copy
+  - check David Alderton is happy for it to be shown
+  - decide where it's hosted: YouTube or Vimeo is best for a 30-minute film (embed or link from the page), rather than putting the file on the website
+  - optionally, a short trailer or clip to show on the page itself
