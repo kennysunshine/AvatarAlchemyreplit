@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-09: logo file names
+
+### Fixed
+- The new logo kept the old file names, so browsers that had visited before kept showing the old cached logo. The logo files now have new names (`avatar-alchemy-icon.png` for the top bar, `avatar-alchemy-logo.png` for link previews and business details), so every visitor gets the new navy logo. The old file names still exist with the new logo in them, for any outside links.
+
 ## 2026-11-08 — branch `service-pages` (live)
 
 ### Added
