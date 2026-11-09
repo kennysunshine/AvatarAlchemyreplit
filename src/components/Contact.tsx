@@ -1,4 +1,5 @@
 import { Mail, MessageSquare, Phone } from 'lucide-react';
+import { ContactForm } from './ContactForm';
 
 export function Contact() {
     return (
@@ -12,27 +13,7 @@ export function Contact() {
                 <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
                     {/* Form */}
                     <div className="bg-[#0F1115] p-8 rounded-3xl border border-white/5">
-                        <form className="space-y-6">
-                            <div>
-                                <label className="block text-xs font-bold text-gray-400 uppercase mb-2">Full Name</label>
-                                <input type="text" placeholder="John Doe" className="w-full bg-[#050609] border border-white/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary/50 transition-colors" />
-                            </div>
-                            <div>
-                                <label className="block text-xs font-bold text-gray-400 uppercase mb-2">Email Address</label>
-                                <input type="email" placeholder="john@example.com" className="w-full bg-[#050609] border border-white/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary/50 transition-colors" />
-                            </div>
-                            <div>
-                                <label className="block text-xs font-bold text-gray-400 uppercase mb-2">Phone Number</label>
-                                <input type="tel" placeholder="+44 7XXX XXXXXX" className="w-full bg-[#050609] border border-white/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary/50 transition-colors" />
-                            </div>
-                            <div>
-                                <label className="block text-xs font-bold text-gray-400 uppercase mb-2">Message</label>
-                                <textarea placeholder="Tell us about your business..." rows={4} className="w-full bg-[#050609] border border-white/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary/50 transition-colors"></textarea>
-                            </div>
-                            <button type="submit" className="w-full bg-primary hover:bg-primary-hover text-black font-bold py-4 rounded-lg transition-all">
-                                Send Message
-                            </button>
-                        </form>
+                        <ContactForm />
                     </div>
 
                     {/* Quick Contact Info */}

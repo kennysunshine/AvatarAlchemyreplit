@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased] — branch `contact-form`
+
+### Fixed
+- The contact form now works. Messages go to kenny.swann@avatar-alchemy.com through Web3Forms (`src/components/ContactForm.tsx`). Name, email and message are required. Visitors see "Thanks, your message has been sent" afterwards, or an error with the email address if sending fails. A hidden spam trap filters out bots. Each email's subject line is "New website enquiry from [name]".
+- To do: mention Web3Forms in the Privacy Policy when it is written.
+
 ## 2026-11-09: logo file names
 
 ### Fixed
