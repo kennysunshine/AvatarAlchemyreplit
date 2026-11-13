@@ -5,7 +5,7 @@
 ### Changed
 - New shared header and footer, kept identical with pseo.avatar-alchemy.com (`src/components/shared/`).
   - Navigation: Home | AI Visibility | Programmatic SEO | Pricing | About, plus the "Book a free AI visibility check" button. Programmatic SEO goes to pseo.avatar-alchemy.com.
-  - Footer: trading name, Glastonbury, Somerset, UK, email, Privacy, and a small "Video & AI Avatars" link.
+  - Footer: trading name, Somerset, UK (no town, as Kenny asked), email, Privacy, and a small "Video & AI Avatars" link.
   - The old footer's quick links, social icons and Terms link are gone (not in the brief).
 - Same font as the pSEO site (Geist, was Inter / Plus Jakarta Sans) and the same navy colours.
 - Buttons now have white text on blue, as on the pSEO site.
