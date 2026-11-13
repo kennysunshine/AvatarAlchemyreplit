@@ -30,7 +30,7 @@ export function VideoSection() {
     const [activeIdx, setActiveIdx] = useState(0);
 
     return (
-        <section className="py-24 px-6 bg-[#050609]">
+        <section className="py-24 px-6 bg-[#070b14]">
             <div className="max-w-7xl mx-auto">
 
                 {/* Header */}
@@ -70,7 +70,7 @@ export function VideoSection() {
                                 onClick={() => setActiveIdx(idx)}
                                 className={`p-4 rounded-xl border transition-all cursor-pointer ${idx === activeIdx
                                     ? 'bg-gradient-to-r from-purple-600 to-blue-600 border-transparent text-white'
-                                    : 'bg-[#0F1115] border-white/5 hover:border-white/10 text-gray-400 hover:text-white'
+                                    : 'bg-[#0d1527] border-white/5 hover:border-white/10 text-gray-400 hover:text-white'
                                     }`}
                             >
                                 <div className="flex items-start gap-4">

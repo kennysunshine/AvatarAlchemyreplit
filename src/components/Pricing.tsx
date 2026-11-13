@@ -66,7 +66,7 @@ export function Pricing() {
     ];
 
     return (
-        <section id="pricing" className="py-32 px-6 bg-[#050609]">
+        <section id="pricing" className="py-32 px-6 bg-[#070b14]">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-24">
                     <h2 className="text-4xl md:text-5xl font-light mb-6 text-white tracking-tight">Frictionless AI Dominance</h2>
@@ -80,12 +80,12 @@ export function Pricing() {
                         <div
                             key={idx}
                             className={`relative rounded-2xl p-10 border transition-all duration-500 ${tier.highlight
-                                ? 'bg-[#0b0c10] border-primary/40 shadow-[0_0_50px_-12px_rgba(0,229,255,0.1)]'
+                                ? 'bg-[#0d1527] border-primary/40 shadow-[0_0_50px_-12px_rgba(0,229,255,0.1)]'
                                 : 'bg-transparent border-white/10 hover:border-white/20'
                                 }`}
                         >
                             {tier.highlight && (
-                                <div className="absolute -top-4 left-10 bg-primary text-black text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+                                <div className="absolute -top-4 left-10 bg-blue-500 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
                                     Most Popular
                                 </div>
                             )}
@@ -115,7 +115,7 @@ export function Pricing() {
                             </ul>
 
                             <button className={`w-full py-4 rounded-xl font-medium text-sm transition-all duration-300 ${tier.highlight
-                                ? 'bg-primary hover:bg-primary-hover text-black shadow-lg shadow-primary/20'
+                                ? 'bg-blue-500 hover:bg-blue-600 text-white shadow-lg shadow-primary/20'
                                 : 'bg-white/5 hover:bg-white/10 text-white border border-white/10'
                                 }`}>
                                 {tier.cta}

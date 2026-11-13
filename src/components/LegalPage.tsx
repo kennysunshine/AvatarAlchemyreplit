@@ -13,7 +13,7 @@ export function Placeholder({ children }: { children: React.ReactNode }) {
 
 export function LegalPage({ title, children }: { title: string; children: React.ReactNode }) {
     return (
-        <main className="min-h-screen bg-[#050609] text-white">
+        <main className="min-h-screen bg-[#070b14] text-white">
             <Navbar />
             <article className="pt-32 pb-20 px-6 max-w-3xl mx-auto">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">{title}</h1>

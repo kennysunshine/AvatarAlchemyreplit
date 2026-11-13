@@ -45,7 +45,7 @@ export const Features = () => {
                     {features.map((feature, index) => (
                         <div
                             key={index}
-                            className="p-8 rounded-2xl bg-[#14161a]/50 border border-white/5 hover:border-purple-500/30 transition-colors duration-300 backdrop-blur-sm group"
+                            className="p-8 rounded-2xl bg-[#111b30]/50 border border-white/5 hover:border-purple-500/30 transition-colors duration-300 backdrop-blur-sm group"
                         >
                             <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500/10 to-cyan-500/10 flex items-center justify-center mb-6 group-hover:from-purple-500/20 group-hover:to-cyan-500/20 transition-all">
                                 <feature.icon className="w-6 h-6 text-cyan-400" />

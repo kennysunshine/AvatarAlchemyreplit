@@ -10,6 +10,7 @@ import { Placeholder } from "@/components/LegalPage";
 import { services, getService, serviceSchema, type Service } from "@/lib/services";
 import { faqs } from "@/lib/faqs";
 import { blogPosts } from "@/lib/site";
+import { CTA_HREF, CTA_LABEL } from "@/components/shared/site-links";
 
 export const dynamicParams = false;
 
@@ -53,7 +54,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     const relatedPosts = s.blogSlugs.map((slug) => blogPosts[slug]);
 
     return (
-        <main className="min-h-screen bg-[#050609] text-white">
+        <main className="min-h-screen bg-[#070b14] text-white">
             <JsonLd data={serviceSchema(s)} />
             <Navbar />
 
@@ -67,11 +68,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">{s.name}</h1>
                     {s.intro ? <p className="text-xl text-gray-400 leading-relaxed">{s.intro}</p> : <Placeholder>{s.prompts.intro}</Placeholder>}
                     <div className="flex flex-col sm:flex-row gap-4 mt-8">
-                        <a href="/book" className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-hover text-black font-semibold px-6 py-3 rounded-lg transition-colors">
-                            Book a consultation <ArrowRight className="w-4 h-4" />
-                        </a>
-                        <a href="https://audit.avatar-alchemy.com" className="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-white/10 hover:bg-white/5 transition-colors">
-                            Free Visibility Audit
+                        <a href={CTA_HREF} className="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full transition-colors">
+                            {CTA_LABEL} <ArrowRight className="w-4 h-4" />
                         </a>
                     </div>
                 </header>
@@ -128,7 +126,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
                 {s.example ? (
                     <Section heading="Example work">
-                        <div className="bg-[#0F1115] border border-white/5 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 items-start sm:items-center">
+                        <div className="bg-[#0d1527] border border-white/5 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 items-start sm:items-center">
                             {s.example.logo && (
                                 // eslint-disable-next-line @next/next/no-img-element
                                 <img src={s.example.logo.src} alt={s.example.logo.alt} className="h-20 w-auto object-contain flex-shrink-0" />
@@ -155,7 +153,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     <Section heading="Questions">
                         <div className="space-y-4">
                             {relatedFaqs.map(({ q, a }) => (
-                                <details key={q} className="group bg-[#0F1115] border border-white/5 rounded-lg">
+                                <details key={q} className="group bg-[#0d1527] border border-white/5 rounded-lg">
                                     <summary className="p-6 flex justify-between items-center gap-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                                         <h3 className="font-medium">{q}</h3>
                                         <ChevronDown aria-hidden="true" className="w-5 h-5 flex-shrink-0 text-gray-500 transition-transform group-open:rotate-180" />
@@ -179,10 +177,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     </Section>
                 )}
 
-                <div className="bg-[#0F1115] border border-white/5 rounded-2xl p-8 text-center">
+                <div className="bg-[#0d1527] border border-white/5 rounded-2xl p-8 text-center">
                     <p className="text-xl font-medium mb-6">Every project starts with a conversation about your goals.</p>
-                    <a href="/book" className="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-black font-bold px-8 py-3 rounded-lg transition-colors">
-                        Book a consultation <ArrowRight className="w-4 h-4" />
+                    <a href={CTA_HREF} className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-bold px-8 py-3 rounded-full transition-colors">
+                        {CTA_LABEL} <ArrowRight className="w-4 h-4" />
                     </a>
                 </div>
             </div>

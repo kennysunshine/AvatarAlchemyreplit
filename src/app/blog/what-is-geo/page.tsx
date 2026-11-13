@@ -5,12 +5,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { blogPostMetadata, blogPostSchema } from "@/lib/site";
+import { CTA_HREF, CTA_LABEL } from "@/components/shared/site-links";
 
 export const metadata: Metadata = blogPostMetadata("what-is-geo");
 
 export default function BlogPost() {
     return (
-        <main className="min-h-screen bg-[#050609] text-white">
+        <main className="min-h-screen bg-[#070b14] text-white">
             <JsonLd data={blogPostSchema("what-is-geo")} />
             <Navbar />
 
@@ -85,7 +86,7 @@ export default function BlogPost() {
                     <p>GEO is about becoming the most "citable" brand in your niche. If an AI can't summarize your expertise, it won't recommend you.</p>
                     <p>The businesses that adapt now will dominate the next decade of search. Those who wait will wonder why their traffic disappeared.</p>
 
-                    <div className="bg-[#0F1115] border border-white/5 rounded-2xl p-8 mt-12 not-prose">
+                    <div className="bg-[#0d1527] border border-white/5 rounded-2xl p-8 mt-12 not-prose">
                         <h3 className="text-2xl font-bold mb-4 text-white">What You Can Do Today</h3>
                         <ol className="space-y-4 text-gray-300 list-decimal list-inside">
                             <li><strong className="text-white">Audit your content</strong> - Does it contain specific, citable facts? Or is it generic fluff?</li>
@@ -95,8 +96,8 @@ export default function BlogPost() {
                         </ol>
                         <div className="mt-8 pt-8 border-t border-white/5">
                             <p className="text-lg font-medium text-white mb-4">Ready to make your business the answer AI recommends?</p>
-                            <a href="https://audit.avatar-alchemy.com" className="inline-block bg-primary hover:bg-primary-hover text-black font-bold px-8 py-3 rounded-lg transition-colors">
-                                Book a free AI Visibility Audit
+                            <a href={CTA_HREF} className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-8 py-3 rounded-full transition-colors">
+                                {CTA_LABEL}
                             </a>
                         </div>
                     </div>

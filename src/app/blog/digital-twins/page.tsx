@@ -5,12 +5,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { blogPostMetadata, blogPostSchema } from "@/lib/site";
+import { CTA_HREF, CTA_LABEL } from "@/components/shared/site-links";
 
 export const metadata: Metadata = blogPostMetadata("digital-twins");
 
 export default function BlogPost() {
     return (
-        <main className="min-h-screen bg-[#050609] text-white">
+        <main className="min-h-screen bg-[#070b14] text-white">
             <JsonLd data={blogPostSchema("digital-twins")} />
             <Navbar />
 
@@ -94,7 +95,7 @@ export default function BlogPost() {
                     <h3>The Human Element</h3>
                     <p>A digital twin should <em>amplify</em> a human creator, not replace them. The strategic thinking, creative direction, and authentic connection still comes from the real person. The AI handles execution and scale.</p>
 
-                    <div className="bg-[#0F1115] border border-white/5 rounded-2xl p-8 mt-12 not-prose">
+                    <div className="bg-[#0d1527] border border-white/5 rounded-2xl p-8 mt-12 not-prose">
                         <h3 className="text-2xl font-bold mb-4 text-white">The Economics Are Compelling</h3>
                         <div className="grid md:grid-cols-2 gap-8">
                             <div>
@@ -116,8 +117,8 @@ export default function BlogPost() {
                         </div>
                         <div className="mt-8 pt-8 border-t border-white/5">
                             <p className="text-lg font-medium text-white mb-4">Ready to clone yourself?</p>
-                            <a href="https://audit.avatar-alchemy.com" className="inline-block bg-primary hover:bg-primary-hover text-black font-bold px-8 py-3 rounded-lg transition-colors">
-                                Book a free AI Audit
+                            <a href={CTA_HREF} className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold px-8 py-3 rounded-full transition-colors">
+                                {CTA_LABEL}
                             </a>
                         </div>
                     </div>

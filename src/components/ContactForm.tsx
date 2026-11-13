@@ -8,7 +8,7 @@ const WEB3FORMS_ACCESS_KEY = "b6a4bf32-87ba-46e9-9b2f-7495ae8a4c38";
 type Status = "idle" | "sending" | "sent" | "error";
 
 const field =
-    "w-full bg-[#050609] border border-white/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary/50 transition-colors";
+    "w-full bg-[#070b14] border border-white/10 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-primary/50 transition-colors";
 const label = "block text-xs font-bold text-gray-400 uppercase mb-2";
 
 export function ContactForm() {
@@ -77,7 +77,7 @@ export function ContactForm() {
             <button
                 type="submit"
                 disabled={status === "sending"}
-                className="w-full bg-primary hover:bg-primary-hover disabled:opacity-60 text-black font-bold py-4 rounded-lg transition-all"
+                className="w-full bg-blue-500 hover:bg-blue-600 disabled:opacity-60 text-white font-bold py-4 rounded-lg transition-all"
             >
                 {status === "sending" ? "Sending…" : "Send Message"}
             </button>

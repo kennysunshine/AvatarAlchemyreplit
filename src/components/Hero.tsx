@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight, MoveDown } from 'lucide-react';
 import ParticleBackground from './ParticleBackground';
 import { FadeIn } from './AnimatedHero';
+import { CTA_HREF, CTA_LABEL } from "@/components/shared/site-links";
 
 export function Hero() {
     return (
@@ -46,10 +47,10 @@ export function Hero() {
                 <FadeIn delay={0.4}>
                     <div className="flex flex-col sm:flex-row items-center gap-4 mb-20">
                         <a
-                            href="https://audit.avatar-alchemy.com"
-                            className="flex items-center gap-2 bg-primary hover:bg-primary-hover text-black font-semibold px-8 py-3.5 rounded-md transition-all shadow-lg shadow-primary/20"
+                            href={CTA_HREF}
+                            className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-3.5 rounded-md transition-all shadow-lg shadow-primary/20"
                         >
-                            Book Premium Audit
+                            {CTA_LABEL}
                         </a>
                         <button className="flex items-center gap-2 px-8 py-3.5 rounded-md text-white border border-white/10 hover:bg-white/5 transition-all group">
                             <MoveDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />

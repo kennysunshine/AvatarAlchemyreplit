@@ -16,7 +16,7 @@ const faqSchema = {
 
 export function FAQ() {
     return (
-        <section id="faq" className="py-24 px-6 bg-[#050609]">
+        <section id="faq" className="py-24 px-6 bg-[#070b14]">
             <JsonLd data={faqSchema} />
             <div className="max-w-3xl mx-auto">
                 <h2 className="text-4xl font-bold text-center mb-4">Frequently Asked Questions</h2>
@@ -25,7 +25,7 @@ export function FAQ() {
                 {/* <details> works without JavaScript, so the answers are in the page HTML for search engines and AI crawlers. */}
                 <div className="space-y-4">
                     {faqs.map(({ q, a }) => (
-                        <details key={q} className="group bg-[#0F1115] border border-white/5 rounded-lg hover:bg-[#15181e] transition-colors">
+                        <details key={q} className="group bg-[#0d1527] border border-white/5 rounded-lg hover:bg-[#111b30] transition-colors">
                             <summary className="p-6 flex justify-between items-center gap-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                                 <h3 className="font-medium text-sm md:text-base">{q}</h3>
                                 <ChevronDown aria-hidden="true" className="w-5 h-5 flex-shrink-0 text-gray-500 group-hover:text-white transition-transform group-open:rotate-180" />

@@ -1,5 +1,20 @@
 # Changelog
 
+## [Unreleased] — branch `one-story`, Step 1: shared look and navigation
+
+### Changed
+- New shared header and footer, kept identical with pseo.avatar-alchemy.com (`src/components/shared/`).
+  - Navigation: Home | AI Visibility | Programmatic SEO | Pricing | About, plus the "Book a free AI visibility check" button. Programmatic SEO goes to pseo.avatar-alchemy.com.
+  - Footer: trading name, Glastonbury, Somerset, UK, email, Privacy, and a small "Video & AI Avatars" link.
+  - The old footer's quick links, social icons and Terms link are gone (not in the brief).
+- Same font as the pSEO site (Geist, was Inter / Plus Jakarta Sans) and the same navy colours.
+- Buttons now have white text on blue, as on the pSEO site.
+- One call to action everywhere: "Book a free AI visibility check", going to `/book` (Calendly). This replaces "Book Premium Audit", "Book a consultation" and the blog posts' audit buttons, which went to audit.avatar-alchemy.com or /book.
+- `/book` page: new heading and text describing the free AI visibility check, and the footer added.
+
+### Not yet built (links in the new navigation that go nowhere until later steps)
+- `/ai-visibility` (Step 3), `/pricing` (Step 4), `/#about` (Step 2), `/video` (Step 6).
+
 ## 2026-11-09 — branch `contact-form` (live)
 
 ### Fixed

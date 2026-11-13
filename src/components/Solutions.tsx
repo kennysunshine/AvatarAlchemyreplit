@@ -50,7 +50,7 @@ export function Solutions() {
     ];
 
     return (
-        <section id="solutions" className="py-24 px-6 bg-[#08090d]">
+        <section id="solutions" className="py-24 px-6 bg-[#0a0f1c]">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">Three Pillars to Dominate</h2>
@@ -61,7 +61,7 @@ export function Solutions() {
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {pillars.map((pillar, idx) => (
-                        <div key={idx} className="bg-[#0b0c10] border border-white/5 rounded-3xl p-8 hover:border-primary/20 transition-all duration-300">
+                        <div key={idx} className="bg-[#0d1527] border border-white/5 rounded-3xl p-8 hover:border-primary/20 transition-all duration-300">
                             {/* Tag */}
                             <div className="inline-block px-3 py-1 rounded-full bg-white/5 text-primary text-xs font-semibold mb-8">
                                 {pillar.tag}

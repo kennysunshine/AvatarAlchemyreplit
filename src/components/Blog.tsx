@@ -29,11 +29,11 @@ export function Blog() {
     ];
 
     return (
-        <section id="blog" className="py-24 px-6 bg-[#08090d]">
+        <section id="blog" className="py-24 px-6 bg-[#0a0f1c]">
             <div className="max-w-7xl mx-auto">
                 <div className="grid md:grid-cols-3 gap-8">
                     {posts.map((post, idx) => (
-                        <div key={idx} className="bg-[#0F1115] border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-colors group">
+                        <div key={idx} className="bg-[#0d1527] border border-white/5 rounded-2xl p-8 hover:border-white/10 transition-colors group">
                             <div className="flex items-center gap-3 mb-6 text-xs text-gray-500">
                                 <span className="bg-white/10 text-white px-2 py-1 rounded">{post.category}</span>
                                 <span className="flex items-center gap-1"><Clock className="w-3 h-3" /> {post.readTime}</span>

@@ -10,7 +10,7 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                background: "#0B1120", // Deep Blue-Black
+                background: "#070b14", // same navy as pseo.avatar-alchemy.com
                 foreground: "#ffffff",
                 primary: {
                     DEFAULT: "#3B82F6", // Vivid Blue
@@ -27,8 +27,8 @@ const config: Config = {
                 },
             },
             fontFamily: {
-                sans: ['var(--font-inter)', 'sans-serif'],
-                heading: ['var(--font-plus-jakarta)', 'sans-serif'],
+                sans: ['var(--font-geist-sans)', 'Arial', 'Helvetica', 'sans-serif'],
+                heading: ['var(--font-geist-sans)', 'Arial', 'Helvetica', 'sans-serif'],
             },
             backgroundImage: {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

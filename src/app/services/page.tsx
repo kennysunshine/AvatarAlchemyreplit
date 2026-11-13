@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function ServicesPage() {
     return (
-        <main className="min-h-screen bg-[#050609] text-white">
+        <main className="min-h-screen bg-[#070b14] text-white">
             <Navbar />
             <section className="pt-32 pb-20 px-6 max-w-5xl mx-auto">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">Services</h1>
@@ -27,7 +27,7 @@ export default function ServicesPage() {
                         <Link
                             key={s.slug}
                             href={`/services/${s.slug}`}
-                            className="group bg-[#0F1115] border border-white/5 rounded-2xl p-8 hover:border-primary/30 transition-colors flex flex-col"
+                            className="group bg-[#0d1527] border border-white/5 rounded-2xl p-8 hover:border-primary/30 transition-colors flex flex-col"
                         >
                             <span className="inline-block self-start bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium mb-5">{s.tag}</span>
                             <h2 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors">{s.name}</h2>

@@ -19,7 +19,7 @@ export const AuditSearchBar = () => {
     return (
         <form onSubmit={handleSearch} className="w-full max-w-xl relative group">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-[#9333ea] to-[#2beeee] rounded-lg opacity-30 group-hover:opacity-75 transition duration-500 blur"></div>
-            <div className="relative flex items-center bg-[#0d0f12] rounded-lg border border-gray-800 p-2">
+            <div className="relative flex items-center bg-[#0d1527] rounded-lg border border-gray-800 p-2">
                 <Search className="w-5 h-5 text-gray-500 ml-3" />
                 <input
                     type="text"
