@@ -11,6 +11,7 @@
 - Buttons now have white text on blue, as on the pSEO site.
 - One call to action everywhere: "Book a free AI visibility check", going to `/book` (Calendly). This replaces "Book Premium Audit", "Book a consultation" and the blog posts' audit buttons, which went to audit.avatar-alchemy.com or /book.
 - `/book` page: new heading and text describing the free AI visibility check, and the footer added.
+- Homepage hero: a second button, "Try the free audit tool", goes to audit.avatar-alchemy.com (the self-serve audit app). It replaces the "Learn More" button, which did nothing.
 
 ### Not yet built (links in the new navigation that go nowhere until later steps)
 - `/ai-visibility` (Step 3), `/pricing` (Step 4), `/#about` (Step 2), `/video` (Step 6).
