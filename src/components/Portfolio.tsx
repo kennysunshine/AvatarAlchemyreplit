@@ -55,9 +55,9 @@ export function Portfolio() {
     return (
         <section className="py-24 px-6 bg-[#070b14]">
             <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Work in Action</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Recent work</h2>
                 <p className="text-xl text-gray-400 mb-12">
-                    Real results for real businesses. See how we help clients dominate their digital presence.
+                    A selection of projects for clients and partners.
                 </p>
 
                 {/* Tabs */}

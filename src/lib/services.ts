@@ -37,32 +37,7 @@ const SCOPE_PRICING =
     "Every project is different, so pricing depends on the scope of your project. After our first conversation, we'll give you a clear quote based on what you need.";
 
 export const services: Service[] = [
-    {
-        slug: "ai-search-visibility",
-        name: "Google & AI Search Visibility",
-        tag: "Get Found",
-        metaDescription:
-            "Get your business found on Google and recommended by AI search tools like ChatGPT and Gemini, with schema markup, AI discovery audits, citation building and AI tracking.",
-        draft: false,
-        intro: "We ensure chatbots recommend YOUR business when customers ask for local suggestions.",
-        whoFor:
-            "Businesses that want to be found more prominently on Google and in AI search, without spending large amounts on advertising. If competitors keep appearing ahead of you, or ChatGPT and Gemini don't mention you when customers ask for a recommendation, this is for you.",
-        problem: "Traditional SEO alone is no longer enough; AI Search (SGE, Gemini, ChatGPT) is changing how customers find businesses.",
-        solution:
-            "We make sure everything about your business matches up across the internet. Your website, Google Business Profile, social media pages and directory listings should all tell the same story: the same name, contact details, opening hours and description of what you do. We add structured data (schema) to your website so search engines and AI tools can read your details directly, and we keep your Google Business Profile complete and up to date. When everything is consistent, Google and AI assistants can trust your business, which makes them more likely to show it and recommend it.",
-        included: ["Advanced Schema Markup", "AI Discovery Audit", "Citation & Authority Building", "Real-time AI Tracking"],
-        howItWorks: [
-            { title: "Free visibility audit.", text: "We check how visible your business is on Google and in AI search today." },
-            { title: "Find the gaps.", text: "We find every place your business details are missing, out of date or don't match." },
-            { title: "Fix and connect.", text: "We update your website, structured data, Google Business Profile, social pages and listings so they all line up." },
-            { title: "Track and improve.", text: "We keep checking how you appear on Google and in AI search, and keep improving it." },
-        ],
-        pricing: "plans",
-        example: null,
-        faqIndexes: [0, 3],
-        blogSlugs: ["what-is-geo", "local-business-ai-search"],
-        prompts: {},
-    },
+    // AI search, Digital Twins and video repurposing moved to /ai-visibility and /video (see next.config.ts redirects).
     {
         slug: "website-design",
         name: "Website Design",
@@ -102,67 +77,6 @@ export const services: Service[] = [
         },
         faqIndexes: [0],
         blogSlugs: ["local-business-ai-search"],
-        prompts: {},
-    },
-    {
-        slug: "digital-twins",
-        name: "Digital Twins & AI Video Avatars",
-        tag: "Scale",
-        metaDescription:
-            "Custom AI video avatars for your business: audio cloning, unlimited video generation and multi-language support, without filming every video yourself.",
-        draft: false,
-        intro: "A custom digital clone for infinite, effort-free video production.",
-        whoFor:
-            "Founders, business owners and personal brands who want to show up on video regularly but don't have the time to film every week. If you know video works for your business but filming, re-recording and editing keep slipping down the to-do list, a Digital Twin keeps you visible without you having to be in front of the camera every time.",
-        problem: "The owner is the bottleneck for video content.",
-        solution:
-            "Your Digital Twin creates video content for you without you having to film it. We start by sitting down with you to understand your goals: who you want to reach, what you want to say, and where your videos will be seen. We then create your twin around those needs, so every video looks and sounds like you and fits the way you want to present your business.",
-        included: ["Custom AI Video Avatar", "Audio Clone Technology", "Unlimited Video Generation", "Multi-language Support"],
-        howItWorks: [
-            { title: "A conversation about your goals.", text: "We sit down with you to find out who you want to reach, what you want to say, and where your videos will be used." },
-            { title: "We create your Digital Twin.", text: "Your twin is built around those goals, so it looks and sounds like you and suits the way you present your business." },
-            { title: "Your videos, without the filming.", text: "Your twin produces your videos, ready for social media, explainers, training or wherever you need them, without you having to film each one." },
-        ],
-        pricing:
-            "Every Digital Twin is different, so pricing depends on the scope of your project. After our first conversation, we'll give you a clear quote based on what you need.",
-        // Kenny's own Digital Twin will be added here once it's ready
-        example: null,
-        faqIndexes: [1],
-        blogSlugs: ["digital-twins"],
-        showDemoVideos: true,
-        prompts: {},
-    },
-    {
-        slug: "video-repurposing",
-        name: "Video Repurposing (Content Lab)",
-        tag: "Get Seen",
-        metaDescription:
-            "Turn your long videos into short vertical clips for TikTok, Instagram Reels, Facebook Reels and YouTube Shorts, with captions and your branding, plus long-form and documentary-style video.",
-        draft: false,
-        intro: "We turn 1 long video into 20+ viral shorts using AI—with your Brand DNA intact.",
-        whoFor:
-            "Businesses and creators who already have long videos, such as webinars, talks, interviews, podcasts or tutorials, but don't have the time to turn them into regular social media content. If your best material is sitting on a hard drive or buried on YouTube, it can be working for you every day instead.",
-        problem: "Business owners have no time to film daily.",
-        solution:
-            "We take your long-form videos and turn them into short vertical clips for whichever platforms you use, whether that's TikTok, Instagram Reels, Facebook Reels or YouTube Shorts. Each clip is captioned and branded so it's ready to post. If you need new long-form content as well, we can create it for you, from documentary-style films to longer videos for YouTube and your website.",
-        included: [
-            "Long-form to Short-form Transformation",
-            "Vertical short-form video for any platform: TikTok, Instagram Reels, Facebook Reels, YouTube Shorts",
-            "High-accuracy Captions",
-            "Professional Branding & Polish",
-            "Long-form video creation, including documentary-style films",
-        ],
-        howItWorks: [
-            { title: "A conversation about your goals", text: "and the content you already have." },
-            { title: "We plan the clips:", text: "which moments to use and which platforms they're for." },
-            { title: "We edit, caption and brand", text: "each clip." },
-            { title: "You get ready-to-post videos", text: "for every platform you use." },
-        ],
-        pricing: SCOPE_PRICING,
-        // The Brighton Aquarium documentary will be added here once its final link is ready
-        example: null,
-        faqIndexes: [2],
-        blogSlugs: [],
         prompts: {},
     },
 ];

@@ -59,8 +59,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <Navbar />
 
             <article className="pt-32 pb-12 px-6 max-w-3xl mx-auto">
-                <Link href="/services" className="inline-flex items-center gap-2 text-gray-500 hover:text-primary transition-colors mb-8 text-sm">
-                    <ArrowLeft className="w-4 h-4" /> All services
+                <Link href="/" className="inline-flex items-center gap-2 text-gray-500 hover:text-primary transition-colors mb-8 text-sm">
+                    <ArrowLeft className="w-4 h-4" /> Home
                 </Link>
 
                 <header className="mb-14">
@@ -114,8 +114,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 <Section heading="Pricing">
                     {s.pricing === "plans" ? (
                         <p className={text}>
-                            Choose from three monthly plans: Entity Signal Protocol, Authority Vector System and Omnipresence Ecosystem.{" "}
-                            <a href="/#pricing" className="text-primary hover:underline">See plans and prices</a>.
+                            <a href="/pricing" className="text-primary hover:underline">See plans and prices</a>.
                         </p>
                     ) : s.pricing ? (
                         <p className={text}>{s.pricing}</p>

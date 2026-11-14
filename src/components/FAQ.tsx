@@ -20,7 +20,7 @@ export function FAQ() {
             <JsonLd data={faqSchema} />
             <div className="max-w-3xl mx-auto">
                 <h2 className="text-4xl font-bold text-center mb-4">Frequently Asked Questions</h2>
-                <p className="text-gray-400 text-center mb-12">Everything you need to know about AI visibility and digital transformation.</p>
+                <p className="text-gray-400 text-center mb-12">Straight answers about getting found on Google and in AI search.</p>
 
                 {/* <details> works without JavaScript, so the answers are in the page HTML for search engines and AI crawlers. */}
                 <div className="space-y-4">

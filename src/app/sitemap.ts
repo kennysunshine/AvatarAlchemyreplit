@@ -7,9 +7,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [
         { url: `${SITE_URL}/`, changeFrequency: "monthly", priority: 1 },
         { url: `${SITE_URL}/book`, changeFrequency: "yearly", priority: 0.5 },
-        // Service pages appear here once they are no longer drafts (see src/lib/services.ts)
-        ...(services.some((s) => s.draft) ? [] : [{ url: `${SITE_URL}/services`, changeFrequency: "monthly" as const, priority: 0.8 }]),
-        ...services.filter((s) => !s.draft).map((s) => ({ url: `${SITE_URL}/services/${s.slug}`, changeFrequency: "monthly" as const, priority: 0.9 })),
+        { url: `${SITE_URL}/ai-visibility`, changeFrequency: "monthly" as const, priority: 0.9 },
+        { url: `${SITE_URL}/pricing`, changeFrequency: "monthly" as const, priority: 0.9 },
+        { url: `${SITE_URL}/video`, changeFrequency: "monthly" as const, priority: 0.6 },
+        ...services.filter((s) => !s.draft).map((s) => ({ url: `${SITE_URL}/services/${s.slug}`, changeFrequency: "monthly" as const, priority: 0.5 })),
         ...Object.values(blogPosts).map((p) => ({
             url: `${SITE_URL}/blog/${p.slug}`,
             lastModified: p.datePublished,

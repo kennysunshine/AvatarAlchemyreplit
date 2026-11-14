@@ -2,17 +2,16 @@ import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { TrustedBy } from "@/components/TrustedBy";
-import { ProblemSection } from "@/components/ProblemSection";
-import { Solutions } from "@/components/Solutions";
-import { VideoSection } from "@/components/VideoSection";
+import { TwoStepPath } from "@/components/TwoStepPath";
 import { Portfolio } from "@/components/Portfolio";
-import { Pricing } from "@/components/Pricing";
+import { About } from "@/components/About";
 import { FAQ } from "@/components/FAQ";
 import { Contact } from "@/components/Contact";
 import { Blog } from "@/components/Blog";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
+    title: { absolute: "Avatar Alchemy | Get found on Google and in AI search" },
     alternates: { canonical: "/" },
 };
 
@@ -22,11 +21,9 @@ export default function Home() {
             <Navbar />
             <Hero />
             <TrustedBy />
-            <ProblemSection />
-            <Solutions />
-            <Pricing />
-            <VideoSection />
+            <TwoStepPath />
             <Portfolio />
+            <About />
             <FAQ />
             <Contact />
             <Blog />

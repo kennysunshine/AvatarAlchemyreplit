@@ -16,4 +16,12 @@ export const faqs: { q: string; a: string }[] = [
         q: "Is traditional SEO dead because of AI?",
         a: "No, but it has changed. AI search tools still rely on the same foundations as traditional SEO: a fast, well-structured website, clear information about what you do, and trusted links and mentions from other sites. What is new is that AI tools summarise an answer instead of just listing links, so being clearly described and widely mentioned matters more than ever. The best approach is to do both: solid SEO for Google, and making sure AI tools can understand and recommend you.",
     },
+    {
+        q: "What's the difference between AI Visibility and Programmatic SEO?",
+        a: "AI Visibility gets the basics right so Google and AI tools can find and trust you: structured data on your site, a complete Google Business Profile, consistent listings, a simple way to ask for reviews, and a monthly check of what ChatGPT, Gemini and Perplexity say about you. Programmatic SEO builds on that. It adds hundreds of useful pages, one for each service and area your customers search for. The Programmatic SEO monthly plan includes everything in AI Visibility.",
+    },
+    {
+        q: "Why is there a minimum term?",
+        a: "This work usually takes a few months to show, so the minimum gives it time to work. AI Visibility has a 6-month minimum at the lower price or a 3-month minimum at the higher price. After that, it's rolling monthly and you can stop at any time. The Programmatic SEO monthly plan is rolling from the start, and you keep every page built.",
+    },
 ];

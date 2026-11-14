@@ -39,9 +39,9 @@ export function VideoSection() {
                         <Sparkles className="w-3 h-3" />
                         Digital Twin Demo
                     </div>
-                    <h2 className="text-4xl font-bold mb-4">Meet Tom, Your AI Guide</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Meet Tom, an AI presenter</h2>
                     <p className="text-gray-400 max-w-2xl mx-auto">
-                        See our Digital Twin technology in action. Tom explains how AI is changing marketing and why your business needs to adapt now.
+                        Tom is an AI presenter. These short videos show what a Digital Twin looks and sounds like.
                     </p>
                 </div>
 
@@ -90,8 +90,8 @@ export function VideoSection() {
 
                         <div className="pt-6 text-center border-t border-white/5 mt-6">
                             <p className="text-sm text-gray-400 mb-2">Want your own Digital Twin like Tom?</p>
-                            <a href="/#contact" className="text-secondary hover:text-secondary-hover font-bold text-sm flex items-center justify-center gap-1 group">
-                                Book a consultation
+                            <a href="mailto:kenny.swann@avatar-alchemy.com?subject=Digital%20Twin" className="text-secondary hover:text-secondary-hover font-bold text-sm flex items-center justify-center gap-1 group">
+                                Ask me about this
                                 <span className="group-hover:translate-x-1 transition-transform">→</span>
                             </a>
                         </div>

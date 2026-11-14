@@ -1,5 +1,33 @@
 # Changelog
 
+## [Unreleased] — branch `one-story`, Steps 2–7: one story, two ways to buy
+
+### Homepage (Step 2)
+- New hero: "I help local businesses get found on Google and in AI search", plus a line on customers asking Google and AI tools for recommendations. Buttons: "Book a free AI visibility check" and "Try the free audit tool" (audit.avatar-alchemy.com).
+- The Get Found / Get Seen / Scale Up row is removed from the hero.
+- The "Three Pillars" section is replaced by a two-step path: Step 1 AI Visibility (links to /ai-visibility), Step 2 Programmatic SEO (links to pseo.avatar-alchemy.com).
+- Removed: the three old tiers (£595 / £1,250 / £2,495), the comparison table, the "Marketing Landscape Has Changed" section and the Tom video (moved to /video).
+- "Our Work in Action / Real results for real businesses" is now "Recent work".
+- New About section, using the same wording as the pSEO site.
+- FAQ: two new questions ("What's the difference between AI Visibility and Programmatic SEO?" and "Why is there a minimum term?"). The FAQ intro and the Contact heading ("Ready to Start Trending?" → "Get in touch") are reworded.
+- Homepage title: "Avatar Alchemy | Get found on Google and in AI search".
+
+### New pages (Steps 3, 4, 6)
+- `/ai-visibility`: what it is, what's included each month, what I won't promise, prices, a link to Programmatic SEO, and Service schema with both prices.
+- `/pricing`: three cards (AI Visibility £395/month 6-month "Best value", AI Visibility £495/month 3-month, Programmatic SEO £3,000 build + £1,000/month), with the brief's line underneath.
+- `/video`: Digital Twins and the Content Lab, with no prices. Each has an "Ask me about this" email link, and the Tom videos sit at the bottom. Not in the main menu; linked from the footer.
+- Prices live in one place (`src/components/shared/site-links.ts`), shared with the pSEO site.
+
+### Old pages
+- `/services` now redirects to /pricing, `/services/ai-search-visibility` to /ai-visibility, and `/services/digital-twins` and `/services/video-repurposing` to /video. Their content is covered by the new pages.
+- `/services/website-design` stays (not linked from the menu), and its back link now goes Home.
+- The sitemap now lists /ai-visibility, /pricing and /video.
+
+### Checks (Step 7)
+- All 11 main pages and 10 pSEO pages load on a phone screen with no sideways scrolling and no errors. All 39 links between the two sites work.
+- Prices are the same everywhere: £395, £495, £3,000, £1,000. No old prices remain.
+- Banned words: none in the new pages. Some remain in older blog posts, listed for Kenny.
+
 ## [Unreleased] — branch `one-story`, Step 1: shared look and navigation
 
 ### Changed

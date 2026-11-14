@@ -7,7 +7,7 @@ export function Contact() {
         <section id="contact" className="py-24 px-6 bg-[#070b14]">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold mb-4">Ready to Start Trending?</h2>
+                    <h2 className="text-4xl font-bold mb-4">Get in touch</h2>
                     <p className="text-gray-400">Book a free AI visibility check and I&apos;ll show you what ChatGPT and Gemini currently say about your business.</p>
                 </div>
 
