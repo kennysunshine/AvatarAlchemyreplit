@@ -15,7 +15,7 @@
 ### New pages (Steps 3, 4, 6)
 - `/ai-visibility`: what it is, what's included each month, what I won't promise, prices, a link to Programmatic SEO, and Service schema with both prices.
 - `/pricing`: three cards (AI Visibility £395/month 6-month "Best value", AI Visibility £495/month 3-month, Programmatic SEO £3,000 build + £1,000/month), with the brief's line underneath.
-- `/video`: Digital Twins and the Content Lab, with no prices. Each has an "Ask me about this" email link, and the Tom videos sit at the bottom. Not in the main menu; linked from the footer.
+- `/video`: Digital Twins and the Content Lab, with no prices. Each has an "Ask me about this" email link, and the Tom videos sit at the bottom. In the main menu (Kenny asked for it there instead of only in the footer).
 - Prices live in one place (`src/components/shared/site-links.ts`), shared with the pSEO site.
 
 ### Old pages
@@ -32,8 +32,8 @@
 
 ### Changed
 - New shared header and footer, kept identical with pseo.avatar-alchemy.com (`src/components/shared/`).
-  - Navigation: Home | AI Visibility | Programmatic SEO | Pricing | About, plus the "Book a free AI visibility check" button. Programmatic SEO goes to pseo.avatar-alchemy.com.
-  - Footer: trading name, Somerset, UK (no town, as Kenny asked), email, Privacy, and a small "Video & AI Avatars" link.
+  - Navigation: Home | AI Visibility | Programmatic SEO | Video & AI Avatars | Pricing | About (full menu on screens 1280px and wider; ☰ menu below that), plus the "Book a free AI visibility check" button. Programmatic SEO goes to pseo.avatar-alchemy.com.
+  - Footer: trading name, Somerset, UK (no town, as Kenny asked), email and Privacy.
   - The old footer's quick links, social icons and Terms link are gone (not in the brief).
 - Same font as the pSEO site (Geist, was Inter / Plus Jakarta Sans) and the same navy colours.
 - Buttons now have white text on blue, as on the pSEO site.
