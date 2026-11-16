@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased] — branch `one-story`, Steps 2–7: one story, two ways to buy
+## 2026-11-16 — branch `one-story`, Steps 2–7: one story, two ways to buy (live)
 
 ### Homepage (Step 2)
 - New hero: "I help local businesses get found on Google and in AI search", plus a line on customers asking Google and AI tools for recommendations. Buttons: "Book a free AI visibility check" and "Try the free audit tool" (audit.avatar-alchemy.com).
@@ -28,7 +28,7 @@
 - Prices are the same everywhere: £395, £495, £3,000, £1,000. No old prices remain.
 - Banned words: none in the new pages. Some remain in older blog posts, listed for Kenny.
 
-## [Unreleased] — branch `one-story`, Step 1: shared look and navigation
+## 2026-11-16 — branch `one-story`, Step 1: shared look and navigation (live)
 
 ### Changed
 - New shared header and footer, kept identical with pseo.avatar-alchemy.com (`src/components/shared/`).
